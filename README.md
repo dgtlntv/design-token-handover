@@ -1,5 +1,5 @@
-A CSV version of the tokens is available in the csv folder.
-A W3C design tokens JSON version of the tokens is available in the json folder.
+A CSV version of the tokens is available in the `csv` folder.
+A W3C design tokens JSON version of the tokens is available in the `json` folder.
 
 The CSV version is also added and kept up to date on google sheets at:
 
@@ -16,6 +16,8 @@ PR's to the design-tokens repo have also been created for them at:
 - [Semantic color tokens](https://github.com/canonical/design-tokens/pull/6)
 
 A more visual version of the design tokens is available at [tokens.component.wiki](https://tokens.component.wiki) (think storybook for design tokens)
+
+They have been added to Figma in [this](https://www.figma.com/design/JcHlfk6IVmQFu9pTWY5WL0/%F0%9F%9A%A7--WIP----DS25---Foundations-library?m=auto&t=DFabD3Uhs57jVc1u-6) library.
 
 The tokens in this repository have been agreed upon in the following specifications:
 
