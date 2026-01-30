@@ -16,3 +16,9 @@ PR's to the design-tokens repo have also been created for them at:
 - [Semantic color tokens](https://github.com/canonical/design-tokens/pull/6)
 
 A more visual version of the design tokens is available at tokens.component.wiki (think storybook for design tokens)
+
+The tokens in this repository have been agreed upon in the following specifications:
+
+- [DE021 - Primitive dimension tokens](https://docs.google.com/document/d/1x6u6IvjQsFCIQKnEmEfTYwMMnRQMWz4pbg31pN9bbO8/edit?tab=t.0)
+- [DE034 - Typography tokens](https://docs.google.com/document/d/1HXYvbs9I_EJm2cCwjiNm_DTSwTT3IHQf6xl7mIpX2AY/edit?tab=t.0)
+- [DE051 - Color tokens](https://docs.google.com/document/d/1vL0W-MA5QOLnQ_yZMt1xJ-tsVmiy5UD8613XCnpdi0w/edit?tab=t.0)
