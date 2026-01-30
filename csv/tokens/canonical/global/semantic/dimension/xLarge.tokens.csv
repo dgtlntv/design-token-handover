@@ -1,0 +1,2 @@
+path,description,value,unit,extensions
+dimension.size.rootFontSize,Base font size defining the root rem unit for extra-large breakpoint layouts (18px),{dimension.225},,

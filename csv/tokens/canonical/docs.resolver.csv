@@ -1,0 +1,13 @@
+type,modifier,context,default,source,description
+set,,primitive,,global/primitive/color.tokens.json,Base primitive tokens
+set,,primitive,,global/primitive/dimension.tokens.json,Base primitive tokens
+set,,primitive,,global/primitive/number.tokens.json,Base primitive tokens
+set,,primitive,,global/primitive/typography.tokens.json,Base primitive tokens
+set,,semantic,,global/semantic/typography.tokens.json,Semantic tokens
+set,,semantic,,docs/semantic/typography.tokens.json,Semantic tokens
+modifier,breakpoint,small,true,global/semantic/dimension/small.tokens.json,Breakpoint modifier for responsive dimension tokens
+modifier,breakpoint,medium,,global/semantic/dimension/medium.tokens.json,Breakpoint modifier for responsive dimension tokens
+modifier,breakpoint,large,,global/semantic/dimension/large.tokens.json,Breakpoint modifier for responsive dimension tokens
+modifier,breakpoint,xLarge,,global/semantic/dimension/xLarge.tokens.json,Breakpoint modifier for responsive dimension tokens
+modifier,theme,light,true,global/semantic/color/light.tokens.json,Theme modifier for light and dark mode color tokens
+modifier,theme,dark,,global/semantic/color/dark.tokens.json,Theme modifier for light and dark mode color tokens

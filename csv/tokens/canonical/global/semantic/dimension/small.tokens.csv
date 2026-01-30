@@ -1,0 +1,3 @@
+path,description,value,unit,extensions
+dimension.size.rootFontSize,Base font size defining the root rem unit for small breakpoint layouts (16px),{dimension.200},,
+dimension.size.height.baseline,Baseline grid unit for vertical rhythm and component alignment (8px),{dimension.100},,

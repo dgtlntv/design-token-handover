@@ -1,0 +1,48 @@
+{
+  "$schema": "https://designtokens.org/schemas/2025.10/resolver.json",
+  "version": "2025.10",
+  "sets": {
+    "primitive": {
+      "description": "Base primitive tokens",
+      "sources": [
+        { "$ref": "global/primitive/color.tokens.json" },
+        { "$ref": "global/primitive/dimension.tokens.json" },
+        { "$ref": "global/primitive/number.tokens.json" },
+        { "$ref": "global/primitive/typography.tokens.json" }
+      ]
+    },
+    "semantic": {
+      "description": "Semantic tokens",
+      "sources": [
+        { "$ref": "global/semantic/typography.tokens.json" },
+        { "$ref": "docs/semantic/typography.tokens.json" }
+      ]
+    }
+  },
+  "modifiers": {
+    "breakpoint": {
+      "description": "Breakpoint modifier for responsive dimension tokens",
+      "default": "small",
+      "contexts": {
+        "small": [{ "$ref": "global/semantic/dimension/small.tokens.json" }],
+        "medium": [{ "$ref": "global/semantic/dimension/medium.tokens.json" }],
+        "large": [{ "$ref": "global/semantic/dimension/large.tokens.json" }],
+        "xLarge": [{ "$ref": "global/semantic/dimension/xLarge.tokens.json" }]
+      }
+    },
+    "theme": {
+      "description": "Theme modifier for light and dark mode color tokens",
+      "default": "light",
+      "contexts": {
+        "light": [{ "$ref": "global/semantic/color/light.tokens.json" }],
+        "dark": [{ "$ref": "global/semantic/color/dark.tokens.json" }]
+      }
+    }
+  },
+  "resolutionOrder": [
+    { "$ref": "#/sets/primitive" },
+    { "$ref": "#/sets/semantic" },
+    { "$ref": "#/modifiers/breakpoint" },
+    { "$ref": "#/modifiers/theme" }
+  ]
+}
