@@ -1,3 +1,5 @@
+This is a handover repository from Canonicals design team for the first set of design tokens for the new design system of Canonical. The canonical repository for Canonicals design tokens can be found at: https://github.com/canonical/design-tokens
+
 A CSV version of the tokens is available in the `csv` folder.
 A W3C design tokens JSON version of the tokens is available in the `json` folder.
 
