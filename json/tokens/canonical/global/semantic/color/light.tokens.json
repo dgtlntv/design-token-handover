@@ -4,24 +4,42 @@
     "$type": "color",
     "backdrop": {
       "$value": {
-        "colorSpace": { "$ref": "#/color/palette/black/$value/colorSpace" },
+        "colorSpace": {
+          "$ref": "#/color/palette/black/$value/colorSpace"
+        },
         "components": [
-          { "$ref": "#/color/palette/black/$value/components/0" },
-          { "$ref": "#/color/palette/black/$value/components/1" },
-          { "$ref": "#/color/palette/black/$value/components/2" }
+          {
+            "$ref": "#/color/palette/black/$value/components/0"
+          },
+          {
+            "$ref": "#/color/palette/black/$value/components/1"
+          },
+          {
+            "$ref": "#/color/palette/black/$value/components/2"
+          }
         ],
-        "alpha": { "$ref": "#/number/opacity/backdrop/$value" }
+        "alpha": {
+          "$ref": "#/number/opacity/backdrop/$value"
+        }
       },
       "$description": "Semi-transparent overlay color for modal dialogs, drawers, and other components that require dimming the underlying content"
     },
     "background": {
       "$root": {
         "$value": {
-          "colorSpace": { "$ref": "#/color/palette/white/$value/colorSpace" },
+          "colorSpace": {
+            "$ref": "#/color/palette/white/$value/colorSpace"
+          },
           "components": [
-            { "$ref": "#/color/palette/white/$value/components/0" },
-            { "$ref": "#/color/palette/white/$value/components/1" },
-            { "$ref": "#/color/palette/white/$value/components/2" }
+            {
+              "$ref": "#/color/palette/white/$value/components/0"
+            },
+            {
+              "$ref": "#/color/palette/white/$value/components/1"
+            },
+            {
+              "$ref": "#/color/palette/white/$value/components/2"
+            }
           ]
         },
         "$description": "Default page background color for the primary content surface"
@@ -32,20 +50,34 @@
             "$ref": "#/color/palette/gray/20/$value/colorSpace"
           },
           "components": [
-            { "$ref": "#/color/palette/gray/20/$value/components/0" },
-            { "$ref": "#/color/palette/gray/20/$value/components/1" },
-            { "$ref": "#/color/palette/gray/20/$value/components/2" }
+            {
+              "$ref": "#/color/palette/gray/20/$value/components/0"
+            },
+            {
+              "$ref": "#/color/palette/gray/20/$value/components/1"
+            },
+            {
+              "$ref": "#/color/palette/gray/20/$value/components/2"
+            }
           ]
         },
         "$description": "Background color for elevated surfaces layered above the primary background (e.g., cards, sidebars)"
       },
       "layer3": {
         "$value": {
-          "colorSpace": { "$ref": "#/color/palette/white/$value/colorSpace" },
+          "colorSpace": {
+            "$ref": "#/color/palette/white/$value/colorSpace"
+          },
           "components": [
-            { "$ref": "#/color/palette/white/$value/components/0" },
-            { "$ref": "#/color/palette/white/$value/components/1" },
-            { "$ref": "#/color/palette/white/$value/components/2" }
+            {
+              "$ref": "#/color/palette/white/$value/components/0"
+            },
+            {
+              "$ref": "#/color/palette/white/$value/components/1"
+            },
+            {
+              "$ref": "#/color/palette/white/$value/components/2"
+            }
           ]
         },
         "$description": "Background color for surfaces nested within layer 2 (e.g., content sections within cards)"
@@ -66,20 +98,34 @@
             "$ref": "#/color/palette/gray/520/$value/colorSpace"
           },
           "components": [
-            { "$ref": "#/color/palette/gray/520/$value/components/0" },
-            { "$ref": "#/color/palette/gray/520/$value/components/1" },
-            { "$ref": "#/color/palette/gray/520/$value/components/2" }
+            {
+              "$ref": "#/color/palette/gray/520/$value/components/0"
+            },
+            {
+              "$ref": "#/color/palette/gray/520/$value/components/1"
+            },
+            {
+              "$ref": "#/color/palette/gray/520/$value/components/2"
+            }
           ]
         },
         "$description": "Default border color for UI elements such as dividers, input fields, and component boundaries when the border needs to meet contrast requirements"
       },
       "disabled": {
         "$value": {
-          "colorSpace": { "$ref": "#/color/border/$root/$value/colorSpace" },
+          "colorSpace": {
+            "$ref": "#/color/border/$root/$value/colorSpace"
+          },
           "components": [
-            { "$ref": "#/number/lightness/border/disabled/onLight/$value" },
-            { "$ref": "#/color/border/$root/$value/components/1" },
-            { "$ref": "#/color/border/$root/$value/components/2" }
+            {
+              "$ref": "#/number/lightness/border/disabled/onLight/$value"
+            },
+            {
+              "$ref": "#/color/border/$root/$value/components/1"
+            },
+            {
+              "$ref": "#/color/border/$root/$value/components/2"
+            }
           ]
         },
         "$description": "Border color to use when the element using the default border is in a disabled state"
@@ -91,9 +137,15 @@
               "$ref": "#/color/palette/blue/520/$value/colorSpace"
             },
             "components": [
-              { "$ref": "#/color/palette/blue/520/$value/components/0" },
-              { "$ref": "#/color/palette/blue/520/$value/components/1" },
-              { "$ref": "#/color/palette/blue/520/$value/components/2" }
+              {
+                "$ref": "#/color/palette/blue/520/$value/components/0"
+              },
+              {
+                "$ref": "#/color/palette/blue/520/$value/components/1"
+              },
+              {
+                "$ref": "#/color/palette/blue/520/$value/components/2"
+              }
             ]
           },
           "$description": "Border color for elements conveying informational or neutral feedback"
@@ -104,9 +156,11 @@
               "$ref": "#/color/border/information/$root/$value/colorSpace"
             },
             "components": [
-              { "$ref": "#/number/lightness/border/disabled/onLight/$value" },
               {
-                "$ref": "#/color/border/information/$root/$value/components/1"
+                "$ref": "#/number/lightness/border/disabled/onLight/$value"
+              },
+              {
+                "$ref": "#/number/saturation/disabled/$value"
               },
               {
                 "$ref": "#/color/border/information/$root/$value/components/2"
@@ -123,9 +177,15 @@
               "$ref": "#/color/palette/yellow/520/$value/colorSpace"
             },
             "components": [
-              { "$ref": "#/color/palette/yellow/520/$value/components/0" },
-              { "$ref": "#/color/palette/yellow/520/$value/components/1" },
-              { "$ref": "#/color/palette/yellow/520/$value/components/2" }
+              {
+                "$ref": "#/color/palette/yellow/520/$value/components/0"
+              },
+              {
+                "$ref": "#/color/palette/yellow/520/$value/components/1"
+              },
+              {
+                "$ref": "#/color/palette/yellow/520/$value/components/2"
+              }
             ]
           },
           "$description": "Border color for elements conveying caution or potential issues that require attention"
@@ -136,9 +196,15 @@
               "$ref": "#/color/border/warning/$root/$value/colorSpace"
             },
             "components": [
-              { "$ref": "#/number/lightness/border/disabled/onLight/$value" },
-              { "$ref": "#/color/border/warning/$root/$value/components/1" },
-              { "$ref": "#/color/border/warning/$root/$value/components/2" }
+              {
+                "$ref": "#/number/lightness/border/disabled/onLight/$value"
+              },
+              {
+                "$ref": "#/number/saturation/disabled/$value"
+              },
+              {
+                "$ref": "#/color/border/warning/$root/$value/components/2"
+              }
             ]
           },
           "$description": "Border color to use when the element using the warning border is in a disabled state"
@@ -151,9 +217,15 @@
               "$ref": "#/color/palette/red/520/$value/colorSpace"
             },
             "components": [
-              { "$ref": "#/color/palette/red/520/$value/components/0" },
-              { "$ref": "#/color/palette/red/520/$value/components/1" },
-              { "$ref": "#/color/palette/red/520/$value/components/2" }
+              {
+                "$ref": "#/color/palette/red/520/$value/components/0"
+              },
+              {
+                "$ref": "#/color/palette/red/520/$value/components/1"
+              },
+              {
+                "$ref": "#/color/palette/red/520/$value/components/2"
+              }
             ]
           },
           "$description": "Border color for elements indicating errors or critical issues that require immediate action"
@@ -164,9 +236,15 @@
               "$ref": "#/color/border/error/$root/$value/colorSpace"
             },
             "components": [
-              { "$ref": "#/number/lightness/border/disabled/onLight/$value" },
-              { "$ref": "#/color/border/error/$root/$value/components/1" },
-              { "$ref": "#/color/border/error/$root/$value/components/2" }
+              {
+                "$ref": "#/number/lightness/border/disabled/onLight/$value"
+              },
+              {
+                "$ref": "#/number/saturation/disabled/$value"
+              },
+              {
+                "$ref": "#/color/border/error/$root/$value/components/2"
+              }
             ]
           },
           "$description": "Border color to use when the element using the error border is in a disabled state"
@@ -179,9 +257,15 @@
               "$ref": "#/color/palette/green/520/$value/colorSpace"
             },
             "components": [
-              { "$ref": "#/color/palette/green/520/$value/components/0" },
-              { "$ref": "#/color/palette/green/520/$value/components/1" },
-              { "$ref": "#/color/palette/green/520/$value/components/2" }
+              {
+                "$ref": "#/color/palette/green/520/$value/components/0"
+              },
+              {
+                "$ref": "#/color/palette/green/520/$value/components/1"
+              },
+              {
+                "$ref": "#/color/palette/green/520/$value/components/2"
+              }
             ]
           },
           "$description": "Border color for elements indicating successful completion or positive outcomes"
@@ -192,9 +276,15 @@
               "$ref": "#/color/border/success/$root/$value/colorSpace"
             },
             "components": [
-              { "$ref": "#/number/lightness/border/disabled/onLight/$value" },
-              { "$ref": "#/color/border/success/$root/$value/components/1" },
-              { "$ref": "#/color/border/success/$root/$value/components/2" }
+              {
+                "$ref": "#/number/lightness/border/disabled/onLight/$value"
+              },
+              {
+                "$ref": "#/number/saturation/disabled/$value"
+              },
+              {
+                "$ref": "#/color/border/success/$root/$value/components/2"
+              }
             ]
           },
           "$description": "Border color to use when the element using the success border is in a disabled state"
@@ -207,9 +297,15 @@
               "$ref": "#/color/palette/orange/520/$value/colorSpace"
             },
             "components": [
-              { "$ref": "#/color/palette/orange/520/$value/components/0" },
-              { "$ref": "#/color/palette/orange/520/$value/components/1" },
-              { "$ref": "#/color/palette/orange/520/$value/components/2" }
+              {
+                "$ref": "#/color/palette/orange/520/$value/components/0"
+              },
+              {
+                "$ref": "#/color/palette/orange/520/$value/components/1"
+              },
+              {
+                "$ref": "#/color/palette/orange/520/$value/components/2"
+              }
             ]
           },
           "$description": "Border color for elements that need to reflect the brand identity"
@@ -220,9 +316,15 @@
               "$ref": "#/color/border/branded/$root/$value/colorSpace"
             },
             "components": [
-              { "$ref": "#/number/lightness/border/disabled/onLight/$value" },
-              { "$ref": "#/color/border/branded/$root/$value/components/1" },
-              { "$ref": "#/color/border/branded/$root/$value/components/2" }
+              {
+                "$ref": "#/number/lightness/border/disabled/onLight/$value"
+              },
+              {
+                "$ref": "#/number/saturation/disabled/$value"
+              },
+              {
+                "$ref": "#/color/border/branded/$root/$value/components/2"
+              }
             ]
           },
           "$description": "Border color to use when the element using the branded border is in a disabled state"
@@ -235,9 +337,15 @@
               "$ref": "#/color/palette/gray/100/$value/colorSpace"
             },
             "components": [
-              { "$ref": "#/color/palette/gray/100/$value/components/0" },
-              { "$ref": "#/color/palette/gray/100/$value/components/1" },
-              { "$ref": "#/color/palette/gray/100/$value/components/2" }
+              {
+                "$ref": "#/color/palette/gray/100/$value/components/0"
+              },
+              {
+                "$ref": "#/color/palette/gray/100/$value/components/1"
+              },
+              {
+                "$ref": "#/color/palette/gray/100/$value/components/2"
+              }
             ]
           },
           "$description": "Subtle border color for low-emphasis elements such as dividers and decorative borders that don't need to meet contrast requirements"
@@ -251,8 +359,12 @@
               {
                 "$ref": "#/number/lightness/border/muted/disabled/onLight/$value"
               },
-              { "$ref": "#/color/border/muted/$root/$value/components/1" },
-              { "$ref": "#/color/border/muted/$root/$value/components/2" }
+              {
+                "$ref": "#/color/border/muted/$root/$value/components/1"
+              },
+              {
+                "$ref": "#/color/border/muted/$root/$value/components/2"
+              }
             ]
           },
           "$description": "Border color to use when the element using the muted border is in a disabled state"
@@ -265,9 +377,15 @@
               "$ref": "#/color/palette/black/$value/colorSpace"
             },
             "components": [
-              { "$ref": "#/color/palette/black/$value/components/0" },
-              { "$ref": "#/color/palette/black/$value/components/1" },
-              { "$ref": "#/color/palette/black/$value/components/2" }
+              {
+                "$ref": "#/color/palette/black/$value/components/0"
+              },
+              {
+                "$ref": "#/color/palette/black/$value/components/1"
+              },
+              {
+                "$ref": "#/color/palette/black/$value/components/2"
+              }
             ]
           },
           "$description": "High-contrast border color for elements requiring strong visual emphasis, such as indicating the active state in tabs or navigation items"
@@ -299,9 +417,15 @@
               "$ref": "#/color/palette/gray/520/$value/colorSpace"
             },
             "components": [
-              { "$ref": "#/color/palette/gray/520/$value/components/0" },
-              { "$ref": "#/color/palette/gray/520/$value/components/1" },
-              { "$ref": "#/number/hue/category/$value" }
+              {
+                "$ref": "#/color/palette/gray/520/$value/components/0"
+              },
+              {
+                "$ref": "#/color/palette/gray/520/$value/components/1"
+              },
+              {
+                "$ref": "#/number/hue/category/$value"
+              }
             ]
           },
           "$description": "Border color for elements using color.foreground.secondary.category. Use for user-generated categories, tags, or chips where a custom hue is needed. Override number.hue.category on the element to set the hue while maintaining accessibility through consistent lightness and saturation."
@@ -312,9 +436,15 @@
               "$ref": "#/color/border/category/$root/$value/colorSpace"
             },
             "components": [
-              { "$ref": "#/number/lightness/border/disabled/onLight/$value" },
-              { "$ref": "#/color/border/category/$root/$value/components/1" },
-              { "$ref": "#/color/border/category/$root/$value/components/2" }
+              {
+                "$ref": "#/number/lightness/border/disabled/onLight/$value"
+              },
+              {
+                "$ref": "#/color/border/category/$root/$value/components/1"
+              },
+              {
+                "$ref": "#/color/border/category/$root/$value/components/2"
+              }
             ]
           },
           "$description": "Border color for category elements in a disabled state"
@@ -353,9 +483,15 @@
               "$ref": "#/color/background/$root/$value/colorSpace"
             },
             "components": [
-              { "$ref": "#/color/background/$root/$value/components/0" },
-              { "$ref": "#/color/background/$root/$value/components/1" },
-              { "$ref": "#/color/background/$root/$value/components/2" }
+              {
+                "$ref": "#/color/background/$root/$value/components/0"
+              },
+              {
+                "$ref": "#/color/background/$root/$value/components/1"
+              },
+              {
+                "$ref": "#/color/background/$root/$value/components/2"
+              }
             ]
           },
           "$description": "Fill color for ghost-style interactive elements such as buttons that have the same color as the background in their default state"
@@ -369,8 +505,12 @@
               {
                 "$ref": "#/number/lightness/foreground/ghost/hover/onLight/$value"
               },
-              { "$ref": "#/color/foreground/ghost/$root/$value/components/1" },
-              { "$ref": "#/color/foreground/ghost/$root/$value/components/2" }
+              {
+                "$ref": "#/color/foreground/ghost/$root/$value/components/1"
+              },
+              {
+                "$ref": "#/color/foreground/ghost/$root/$value/components/2"
+              }
             ]
           },
           "$description": "Fill color to use when the element using the ghost foreground is in a hover state"
@@ -384,8 +524,12 @@
               {
                 "$ref": "#/number/lightness/foreground/ghost/active/onLight/$value"
               },
-              { "$ref": "#/color/foreground/ghost/$root/$value/components/1" },
-              { "$ref": "#/color/foreground/ghost/$root/$value/components/2" }
+              {
+                "$ref": "#/color/foreground/ghost/$root/$value/components/1"
+              },
+              {
+                "$ref": "#/color/foreground/ghost/$root/$value/components/2"
+              }
             ]
           },
           "$description": "Fill color to use when the element using the ghost foreground is in an active state"
@@ -399,8 +543,12 @@
               {
                 "$ref": "#/number/lightness/foreground/ghost/disabled/onLight/$value"
               },
-              { "$ref": "#/color/foreground/ghost/$root/$value/components/1" },
-              { "$ref": "#/color/foreground/ghost/$root/$value/components/2" }
+              {
+                "$ref": "#/color/foreground/ghost/$root/$value/components/1"
+              },
+              {
+                "$ref": "#/color/foreground/ghost/$root/$value/components/2"
+              }
             ]
           },
           "$description": "Fill color to use when the element using the ghost foreground is in a disabled state"
@@ -412,9 +560,15 @@
                 "$ref": "#/color/background/layer2/$value/colorSpace"
               },
               "components": [
-                { "$ref": "#/color/background/layer2/$value/components/0" },
-                { "$ref": "#/color/background/layer2/$value/components/1" },
-                { "$ref": "#/color/background/layer2/$value/components/2" }
+                {
+                  "$ref": "#/color/background/layer2/$value/components/0"
+                },
+                {
+                  "$ref": "#/color/background/layer2/$value/components/1"
+                },
+                {
+                  "$ref": "#/color/background/layer2/$value/components/2"
+                }
               ]
             },
             "$description": "Fill color for ghost-style interactive elements placed on layer 2 backgrounds"
@@ -484,9 +638,15 @@
                 "$ref": "#/color/background/layer3/$value/colorSpace"
               },
               "components": [
-                { "$ref": "#/color/background/layer3/$value/components/0" },
-                { "$ref": "#/color/background/layer3/$value/components/1" },
-                { "$ref": "#/color/background/layer3/$value/components/2" }
+                {
+                  "$ref": "#/color/background/layer3/$value/components/0"
+                },
+                {
+                  "$ref": "#/color/background/layer3/$value/components/1"
+                },
+                {
+                  "$ref": "#/color/background/layer3/$value/components/2"
+                }
               ]
             },
             "$description": "Fill color for ghost-style interactive elements placed on layer 3 backgrounds"
@@ -548,6 +708,573 @@
             },
             "$description": "Fill color to use when the element using the ghost layer 3 foreground is in a disabled state"
           }
+        },
+        "destructive": {
+          "$root": {
+            "$value": "{color.foreground.ghost.$root}",
+            "$description": "Fill color for destructive ghost-style interactive elements that match the background in their default state"
+          },
+          "hover": {
+            "$value": {
+              "colorSpace": {
+                "$ref": "#/color/palette/red/100/$value/colorSpace"
+              },
+              "components": [
+                {
+                  "$ref": "#/number/lightness/foreground/ghost/hover/onLight/$value"
+                },
+                {
+                  "$ref": "#/color/palette/red/100/$value/components/1"
+                },
+                {
+                  "$ref": "#/color/palette/red/100/$value/components/2"
+                }
+              ]
+            },
+            "$description": "Fill color to use when the element using the destructive ghost foreground is in a hover state"
+          },
+          "active": {
+            "$value": {
+              "colorSpace": {
+                "$ref": "#/color/palette/red/100/$value/colorSpace"
+              },
+              "components": [
+                {
+                  "$ref": "#/number/lightness/foreground/ghost/active/onLight/$value"
+                },
+                {
+                  "$ref": "#/color/palette/red/100/$value/components/1"
+                },
+                {
+                  "$ref": "#/color/palette/red/100/$value/components/2"
+                }
+              ]
+            },
+            "$description": "Fill color to use when the element using the destructive ghost foreground is in an active state"
+          },
+          "disabled": {
+            "$value": {
+              "colorSpace": {
+                "$ref": "#/color/palette/red/100/$value/colorSpace"
+              },
+              "components": [
+                {
+                  "$ref": "#/number/lightness/foreground/ghost/disabled/onLight/$value"
+                },
+                {
+                  "$ref": "#/number/saturation/disabled/$value"
+                },
+                {
+                  "$ref": "#/color/palette/red/100/$value/components/2"
+                }
+              ]
+            },
+            "$description": "Fill color to use when the element using the destructive ghost foreground is in a disabled state"
+          },
+          "layer2": {
+            "$root": {
+              "$value": "{color.foreground.ghost.layer2.$root}",
+              "$description": "Fill color for destructive ghost-style interactive elements placed on layer 2 backgrounds"
+            },
+            "hover": {
+              "$value": {
+                "colorSpace": {
+                  "$ref": "#/color/palette/red/100/$value/colorSpace"
+                },
+                "components": [
+                  {
+                    "$ref": "#/number/lightness/foreground/ghost/hover/onLayer2/onLight/$value"
+                  },
+                  {
+                    "$ref": "#/color/palette/red/100/$value/components/1"
+                  },
+                  {
+                    "$ref": "#/color/palette/red/100/$value/components/2"
+                  }
+                ]
+              },
+              "$description": "Fill color to use when the element using the destructive ghost layer 2 foreground is in a hover state"
+            },
+            "active": {
+              "$value": {
+                "colorSpace": {
+                  "$ref": "#/color/palette/red/100/$value/colorSpace"
+                },
+                "components": [
+                  {
+                    "$ref": "#/number/lightness/foreground/ghost/active/onLayer2/onLight/$value"
+                  },
+                  {
+                    "$ref": "#/color/palette/red/100/$value/components/1"
+                  },
+                  {
+                    "$ref": "#/color/palette/red/100/$value/components/2"
+                  }
+                ]
+              },
+              "$description": "Fill color to use when the element using the destructive ghost layer 2 foreground is in an active state"
+            },
+            "disabled": {
+              "$value": {
+                "colorSpace": {
+                  "$ref": "#/color/palette/red/100/$value/colorSpace"
+                },
+                "components": [
+                  {
+                    "$ref": "#/number/lightness/foreground/ghost/disabled/onLayer2/onLight/$value"
+                  },
+                  {
+                    "$ref": "#/number/saturation/disabled/$value"
+                  },
+                  {
+                    "$ref": "#/color/palette/red/100/$value/components/2"
+                  }
+                ]
+              },
+              "$description": "Fill color to use when the element using the destructive ghost layer 2 foreground is in a disabled state"
+            }
+          },
+          "layer3": {
+            "$root": {
+              "$value": "{color.foreground.ghost.layer3.$root}",
+              "$description": "Fill color for destructive ghost-style interactive elements placed on layer 3 backgrounds"
+            },
+            "hover": {
+              "$value": {
+                "colorSpace": {
+                  "$ref": "#/color/palette/red/100/$value/colorSpace"
+                },
+                "components": [
+                  {
+                    "$ref": "#/number/lightness/foreground/ghost/hover/onLayer3/onLight/$value"
+                  },
+                  {
+                    "$ref": "#/color/palette/red/100/$value/components/1"
+                  },
+                  {
+                    "$ref": "#/color/palette/red/100/$value/components/2"
+                  }
+                ]
+              },
+              "$description": "Fill color to use when the element using the destructive ghost layer 3 foreground is in a hover state"
+            },
+            "active": {
+              "$value": {
+                "colorSpace": {
+                  "$ref": "#/color/palette/red/100/$value/colorSpace"
+                },
+                "components": [
+                  {
+                    "$ref": "#/number/lightness/foreground/ghost/active/onLayer3/onLight/$value"
+                  },
+                  {
+                    "$ref": "#/color/palette/red/100/$value/components/1"
+                  },
+                  {
+                    "$ref": "#/color/palette/red/100/$value/components/2"
+                  }
+                ]
+              },
+              "$description": "Fill color to use when the element using the destructive ghost layer 3 foreground is in an active state"
+            },
+            "disabled": {
+              "$value": {
+                "colorSpace": {
+                  "$ref": "#/color/palette/red/100/$value/colorSpace"
+                },
+                "components": [
+                  {
+                    "$ref": "#/number/lightness/foreground/ghost/disabled/onLayer3/onLight/$value"
+                  },
+                  {
+                    "$ref": "#/number/saturation/disabled/$value"
+                  },
+                  {
+                    "$ref": "#/color/palette/red/100/$value/components/2"
+                  }
+                ]
+              },
+              "$description": "Fill color to use when the element using the destructive ghost layer 3 foreground is in a disabled state"
+            }
+          }
+        },
+        "constructive": {
+          "$root": {
+            "$value": "{color.foreground.ghost.$root}",
+            "$description": "Fill color for constructive ghost-style interactive elements that match the background in their default state"
+          },
+          "hover": {
+            "$value": {
+              "colorSpace": {
+                "$ref": "#/color/palette/green/100/$value/colorSpace"
+              },
+              "components": [
+                {
+                  "$ref": "#/number/lightness/foreground/ghost/hover/onLight/$value"
+                },
+                {
+                  "$ref": "#/color/palette/green/100/$value/components/1"
+                },
+                {
+                  "$ref": "#/color/palette/green/100/$value/components/2"
+                }
+              ]
+            },
+            "$description": "Fill color to use when the element using the constructive ghost foreground is in a hover state"
+          },
+          "active": {
+            "$value": {
+              "colorSpace": {
+                "$ref": "#/color/palette/green/100/$value/colorSpace"
+              },
+              "components": [
+                {
+                  "$ref": "#/number/lightness/foreground/ghost/active/onLight/$value"
+                },
+                {
+                  "$ref": "#/color/palette/green/100/$value/components/1"
+                },
+                {
+                  "$ref": "#/color/palette/green/100/$value/components/2"
+                }
+              ]
+            },
+            "$description": "Fill color to use when the element using the constructive ghost foreground is in an active state"
+          },
+          "disabled": {
+            "$value": {
+              "colorSpace": {
+                "$ref": "#/color/palette/green/100/$value/colorSpace"
+              },
+              "components": [
+                {
+                  "$ref": "#/number/lightness/foreground/ghost/disabled/onLight/$value"
+                },
+                {
+                  "$ref": "#/number/saturation/disabled/$value"
+                },
+                {
+                  "$ref": "#/color/palette/green/100/$value/components/2"
+                }
+              ]
+            },
+            "$description": "Fill color to use when the element using the constructive ghost foreground is in a disabled state"
+          },
+          "layer2": {
+            "$root": {
+              "$value": "{color.foreground.ghost.layer2.$root}",
+              "$description": "Fill color for constructive ghost-style interactive elements placed on layer 2 backgrounds"
+            },
+            "hover": {
+              "$value": {
+                "colorSpace": {
+                  "$ref": "#/color/palette/green/100/$value/colorSpace"
+                },
+                "components": [
+                  {
+                    "$ref": "#/number/lightness/foreground/ghost/hover/onLayer2/onLight/$value"
+                  },
+                  {
+                    "$ref": "#/color/palette/green/100/$value/components/1"
+                  },
+                  {
+                    "$ref": "#/color/palette/green/100/$value/components/2"
+                  }
+                ]
+              },
+              "$description": "Fill color to use when the element using the constructive ghost layer 2 foreground is in a hover state"
+            },
+            "active": {
+              "$value": {
+                "colorSpace": {
+                  "$ref": "#/color/palette/green/100/$value/colorSpace"
+                },
+                "components": [
+                  {
+                    "$ref": "#/number/lightness/foreground/ghost/active/onLayer2/onLight/$value"
+                  },
+                  {
+                    "$ref": "#/color/palette/green/100/$value/components/1"
+                  },
+                  {
+                    "$ref": "#/color/palette/green/100/$value/components/2"
+                  }
+                ]
+              },
+              "$description": "Fill color to use when the element using the constructive ghost layer 2 foreground is in an active state"
+            },
+            "disabled": {
+              "$value": {
+                "colorSpace": {
+                  "$ref": "#/color/palette/green/100/$value/colorSpace"
+                },
+                "components": [
+                  {
+                    "$ref": "#/number/lightness/foreground/ghost/disabled/onLayer2/onLight/$value"
+                  },
+                  {
+                    "$ref": "#/number/saturation/disabled/$value"
+                  },
+                  {
+                    "$ref": "#/color/palette/green/100/$value/components/2"
+                  }
+                ]
+              },
+              "$description": "Fill color to use when the element using the constructive ghost layer 2 foreground is in a disabled state"
+            }
+          },
+          "layer3": {
+            "$root": {
+              "$value": "{color.foreground.ghost.layer3.$root}",
+              "$description": "Fill color for constructive ghost-style interactive elements placed on layer 3 backgrounds"
+            },
+            "hover": {
+              "$value": {
+                "colorSpace": {
+                  "$ref": "#/color/palette/green/100/$value/colorSpace"
+                },
+                "components": [
+                  {
+                    "$ref": "#/number/lightness/foreground/ghost/hover/onLayer3/onLight/$value"
+                  },
+                  {
+                    "$ref": "#/color/palette/green/100/$value/components/1"
+                  },
+                  {
+                    "$ref": "#/color/palette/green/100/$value/components/2"
+                  }
+                ]
+              },
+              "$description": "Fill color to use when the element using the constructive ghost layer 3 foreground is in a hover state"
+            },
+            "active": {
+              "$value": {
+                "colorSpace": {
+                  "$ref": "#/color/palette/green/100/$value/colorSpace"
+                },
+                "components": [
+                  {
+                    "$ref": "#/number/lightness/foreground/ghost/active/onLayer3/onLight/$value"
+                  },
+                  {
+                    "$ref": "#/color/palette/green/100/$value/components/1"
+                  },
+                  {
+                    "$ref": "#/color/palette/green/100/$value/components/2"
+                  }
+                ]
+              },
+              "$description": "Fill color to use when the element using the constructive ghost layer 3 foreground is in an active state"
+            },
+            "disabled": {
+              "$value": {
+                "colorSpace": {
+                  "$ref": "#/color/palette/green/100/$value/colorSpace"
+                },
+                "components": [
+                  {
+                    "$ref": "#/number/lightness/foreground/ghost/disabled/onLayer3/onLight/$value"
+                  },
+                  {
+                    "$ref": "#/number/saturation/disabled/$value"
+                  },
+                  {
+                    "$ref": "#/color/palette/green/100/$value/components/2"
+                  }
+                ]
+              },
+              "$description": "Fill color to use when the element using the constructive ghost layer 3 foreground is in a disabled state"
+            }
+          }
+        },
+        "branded": {
+          "$root": {
+            "$value": "{color.foreground.ghost.$root}",
+            "$description": "Fill color for branded ghost-style interactive elements that match the background in their default state"
+          },
+          "hover": {
+            "$value": {
+              "colorSpace": {
+                "$ref": "#/color/palette/orange/100/$value/colorSpace"
+              },
+              "components": [
+                {
+                  "$ref": "#/number/lightness/foreground/ghost/hover/onLight/$value"
+                },
+                {
+                  "$ref": "#/color/palette/orange/100/$value/components/1"
+                },
+                {
+                  "$ref": "#/color/palette/orange/100/$value/components/2"
+                }
+              ]
+            },
+            "$description": "Fill color to use when the element using the branded ghost foreground is in a hover state"
+          },
+          "active": {
+            "$value": {
+              "colorSpace": {
+                "$ref": "#/color/palette/orange/100/$value/colorSpace"
+              },
+              "components": [
+                {
+                  "$ref": "#/number/lightness/foreground/ghost/active/onLight/$value"
+                },
+                {
+                  "$ref": "#/color/palette/orange/100/$value/components/1"
+                },
+                {
+                  "$ref": "#/color/palette/orange/100/$value/components/2"
+                }
+              ]
+            },
+            "$description": "Fill color to use when the element using the branded ghost foreground is in an active state"
+          },
+          "disabled": {
+            "$value": {
+              "colorSpace": {
+                "$ref": "#/color/palette/orange/100/$value/colorSpace"
+              },
+              "components": [
+                {
+                  "$ref": "#/number/lightness/foreground/ghost/disabled/onLight/$value"
+                },
+                {
+                  "$ref": "#/number/saturation/disabled/$value"
+                },
+                {
+                  "$ref": "#/color/palette/orange/100/$value/components/2"
+                }
+              ]
+            },
+            "$description": "Fill color to use when the element using the branded ghost foreground is in a disabled state"
+          },
+          "layer2": {
+            "$root": {
+              "$value": "{color.foreground.ghost.layer2.$root}",
+              "$description": "Fill color for branded ghost-style interactive elements placed on layer 2 backgrounds"
+            },
+            "hover": {
+              "$value": {
+                "colorSpace": {
+                  "$ref": "#/color/palette/orange/100/$value/colorSpace"
+                },
+                "components": [
+                  {
+                    "$ref": "#/number/lightness/foreground/ghost/hover/onLayer2/onLight/$value"
+                  },
+                  {
+                    "$ref": "#/color/palette/orange/100/$value/components/1"
+                  },
+                  {
+                    "$ref": "#/color/palette/orange/100/$value/components/2"
+                  }
+                ]
+              },
+              "$description": "Fill color to use when the element using the branded ghost layer 2 foreground is in a hover state"
+            },
+            "active": {
+              "$value": {
+                "colorSpace": {
+                  "$ref": "#/color/palette/orange/100/$value/colorSpace"
+                },
+                "components": [
+                  {
+                    "$ref": "#/number/lightness/foreground/ghost/active/onLayer2/onLight/$value"
+                  },
+                  {
+                    "$ref": "#/color/palette/orange/100/$value/components/1"
+                  },
+                  {
+                    "$ref": "#/color/palette/orange/100/$value/components/2"
+                  }
+                ]
+              },
+              "$description": "Fill color to use when the element using the branded ghost layer 2 foreground is in an active state"
+            },
+            "disabled": {
+              "$value": {
+                "colorSpace": {
+                  "$ref": "#/color/palette/orange/100/$value/colorSpace"
+                },
+                "components": [
+                  {
+                    "$ref": "#/number/lightness/foreground/ghost/disabled/onLayer2/onLight/$value"
+                  },
+                  {
+                    "$ref": "#/number/saturation/disabled/$value"
+                  },
+                  {
+                    "$ref": "#/color/palette/orange/100/$value/components/2"
+                  }
+                ]
+              },
+              "$description": "Fill color to use when the element using the branded ghost layer 2 foreground is in a disabled state"
+            }
+          },
+          "layer3": {
+            "$root": {
+              "$value": "{color.foreground.ghost.layer3.$root}",
+              "$description": "Fill color for branded ghost-style interactive elements placed on layer 3 backgrounds"
+            },
+            "hover": {
+              "$value": {
+                "colorSpace": {
+                  "$ref": "#/color/palette/orange/100/$value/colorSpace"
+                },
+                "components": [
+                  {
+                    "$ref": "#/number/lightness/foreground/ghost/hover/onLayer3/onLight/$value"
+                  },
+                  {
+                    "$ref": "#/color/palette/orange/100/$value/components/1"
+                  },
+                  {
+                    "$ref": "#/color/palette/orange/100/$value/components/2"
+                  }
+                ]
+              },
+              "$description": "Fill color to use when the element using the branded ghost layer 3 foreground is in a hover state"
+            },
+            "active": {
+              "$value": {
+                "colorSpace": {
+                  "$ref": "#/color/palette/orange/100/$value/colorSpace"
+                },
+                "components": [
+                  {
+                    "$ref": "#/number/lightness/foreground/ghost/active/onLayer3/onLight/$value"
+                  },
+                  {
+                    "$ref": "#/color/palette/orange/100/$value/components/1"
+                  },
+                  {
+                    "$ref": "#/color/palette/orange/100/$value/components/2"
+                  }
+                ]
+              },
+              "$description": "Fill color to use when the element using the branded ghost layer 3 foreground is in an active state"
+            },
+            "disabled": {
+              "$value": {
+                "colorSpace": {
+                  "$ref": "#/color/palette/orange/100/$value/colorSpace"
+                },
+                "components": [
+                  {
+                    "$ref": "#/number/lightness/foreground/ghost/disabled/onLayer3/onLight/$value"
+                  },
+                  {
+                    "$ref": "#/number/saturation/disabled/$value"
+                  },
+                  {
+                    "$ref": "#/color/palette/orange/100/$value/components/2"
+                  }
+                ]
+              },
+              "$description": "Fill color to use when the element using the branded ghost layer 3 foreground is in a disabled state"
+            }
+          }
         }
       },
       "navigation": {
@@ -558,9 +1285,15 @@
                 "$ref": "#/color/background/layer2/$value/colorSpace"
               },
               "components": [
-                { "$ref": "#/color/background/layer2/$value/components/0" },
-                { "$ref": "#/color/background/layer2/$value/components/1" },
-                { "$ref": "#/color/background/layer2/$value/components/2" }
+                {
+                  "$ref": "#/color/background/layer2/$value/components/0"
+                },
+                {
+                  "$ref": "#/color/background/layer2/$value/components/1"
+                },
+                {
+                  "$ref": "#/color/background/layer2/$value/components/2"
+                }
               ]
             },
             "$description": "Fill color for primary navigation elements such as the main navigation bar"
@@ -629,9 +1362,15 @@
                   "$ref": "#/color/background/$root/$value/colorSpace"
                 },
                 "components": [
-                  { "$ref": "#/color/background/$root/$value/components/0" },
-                  { "$ref": "#/color/background/$root/$value/components/1" },
-                  { "$ref": "#/color/background/$root/$value/components/2" }
+                  {
+                    "$ref": "#/color/background/$root/$value/components/0"
+                  },
+                  {
+                    "$ref": "#/color/background/$root/$value/components/1"
+                  },
+                  {
+                    "$ref": "#/color/background/$root/$value/components/2"
+                  }
                 ]
               },
               "$description": "Fill color for primary navigation elements placed on layer 2 backgrounds"
@@ -701,9 +1440,15 @@
                   "$ref": "#/color/background/layer2/$value/colorSpace"
                 },
                 "components": [
-                  { "$ref": "#/color/background/layer2/$value/components/0" },
-                  { "$ref": "#/color/background/layer2/$value/components/1" },
-                  { "$ref": "#/color/background/layer2/$value/components/2" }
+                  {
+                    "$ref": "#/color/background/layer2/$value/components/0"
+                  },
+                  {
+                    "$ref": "#/color/background/layer2/$value/components/1"
+                  },
+                  {
+                    "$ref": "#/color/background/layer2/$value/components/2"
+                  }
                 ]
               },
               "$description": "Fill color for primary navigation elements placed on layer 3 backgrounds"
@@ -774,9 +1519,15 @@
                 "$ref": "#/color/palette/gray/40/$value/colorSpace"
               },
               "components": [
-                { "$ref": "#/color/palette/gray/40/$value/components/0" },
-                { "$ref": "#/color/palette/gray/40/$value/components/1" },
-                { "$ref": "#/color/palette/gray/40/$value/components/2" }
+                {
+                  "$ref": "#/color/palette/gray/40/$value/components/0"
+                },
+                {
+                  "$ref": "#/color/palette/gray/40/$value/components/1"
+                },
+                {
+                  "$ref": "#/color/palette/gray/40/$value/components/2"
+                }
               ]
             },
             "$description": "Fill color for secondary navigation elements such as sub-navigation or sidebar menus"
@@ -847,9 +1598,15 @@
               "$ref": "#/color/palette/gray/20/$value/colorSpace"
             },
             "components": [
-              { "$ref": "#/color/palette/gray/20/$value/components/0" },
-              { "$ref": "#/color/palette/gray/20/$value/components/1" },
-              { "$ref": "#/color/palette/gray/20/$value/components/2" }
+              {
+                "$ref": "#/color/palette/gray/20/$value/components/0"
+              },
+              {
+                "$ref": "#/color/palette/gray/20/$value/components/1"
+              },
+              {
+                "$ref": "#/color/palette/gray/20/$value/components/2"
+              }
             ]
           },
           "$description": "Fill color for input elements such as text fields, textareas, and select dropdowns"
@@ -863,8 +1620,12 @@
               {
                 "$ref": "#/number/lightness/foreground/input/hover/onLight/$value"
               },
-              { "$ref": "#/color/foreground/input/$root/$value/components/1" },
-              { "$ref": "#/color/foreground/input/$root/$value/components/2" }
+              {
+                "$ref": "#/color/foreground/input/$root/$value/components/1"
+              },
+              {
+                "$ref": "#/color/foreground/input/$root/$value/components/2"
+              }
             ]
           },
           "$description": "Fill color to use when the element using the input foreground is in a hover state"
@@ -878,8 +1639,12 @@
               {
                 "$ref": "#/number/lightness/foreground/input/active/onLight/$value"
               },
-              { "$ref": "#/color/foreground/input/$root/$value/components/1" },
-              { "$ref": "#/color/foreground/input/$root/$value/components/2" }
+              {
+                "$ref": "#/color/foreground/input/$root/$value/components/1"
+              },
+              {
+                "$ref": "#/color/foreground/input/$root/$value/components/2"
+              }
             ]
           },
           "$description": "Fill color to use when the element using the input foreground is in an active state"
@@ -893,8 +1658,12 @@
               {
                 "$ref": "#/number/lightness/foreground/input/disabled/onLight/$value"
               },
-              { "$ref": "#/color/foreground/input/$root/$value/components/1" },
-              { "$ref": "#/color/foreground/input/$root/$value/components/2" }
+              {
+                "$ref": "#/color/foreground/input/$root/$value/components/1"
+              },
+              {
+                "$ref": "#/color/foreground/input/$root/$value/components/2"
+              }
             ]
           },
           "$description": "Fill color to use when the element using the input foreground is in a disabled state"
@@ -906,9 +1675,15 @@
                 "$ref": "#/color/palette/white/$value/colorSpace"
               },
               "components": [
-                { "$ref": "#/color/palette/white/$value/components/0" },
-                { "$ref": "#/color/palette/white/$value/components/1" },
-                { "$ref": "#/color/palette/white/$value/components/2" }
+                {
+                  "$ref": "#/color/palette/white/$value/components/0"
+                },
+                {
+                  "$ref": "#/color/palette/white/$value/components/1"
+                },
+                {
+                  "$ref": "#/color/palette/white/$value/components/2"
+                }
               ]
             },
             "$description": "Fill color for input elements placed on layer 2 backgrounds"
@@ -978,9 +1753,15 @@
                 "$ref": "#/color/palette/gray/20/$value/colorSpace"
               },
               "components": [
-                { "$ref": "#/color/palette/gray/20/$value/components/0" },
-                { "$ref": "#/color/palette/gray/20/$value/components/1" },
-                { "$ref": "#/color/palette/gray/20/$value/components/2" }
+                {
+                  "$ref": "#/color/palette/gray/20/$value/components/0"
+                },
+                {
+                  "$ref": "#/color/palette/gray/20/$value/components/1"
+                },
+                {
+                  "$ref": "#/color/palette/gray/20/$value/components/2"
+                }
               ]
             },
             "$description": "Fill color for input elements placed on layer 3 backgrounds"
@@ -1050,9 +1831,15 @@
                 "$ref": "#/color/palette/yellow/20/$value/colorSpace"
               },
               "components": [
-                { "$ref": "#/color/palette/yellow/20/$value/components/0" },
-                { "$ref": "#/color/palette/yellow/20/$value/components/1" },
-                { "$ref": "#/color/palette/yellow/20/$value/components/2" }
+                {
+                  "$ref": "#/color/palette/yellow/20/$value/components/0"
+                },
+                {
+                  "$ref": "#/color/palette/yellow/20/$value/components/1"
+                },
+                {
+                  "$ref": "#/color/palette/yellow/20/$value/components/2"
+                }
               ]
             },
             "$description": "Fill color for input elements in a warning validation state"
@@ -1105,7 +1892,7 @@
                   "$ref": "#/number/lightness/foreground/input/disabled/onLight/$value"
                 },
                 {
-                  "$ref": "#/color/foreground/input/warning/$root/$value/components/1"
+                  "$ref": "#/number/saturation/disabled/$value"
                 },
                 {
                   "$ref": "#/color/foreground/input/warning/$root/$value/components/2"
@@ -1121,9 +1908,15 @@
                   "$ref": "#/color/palette/yellow/40/$value/colorSpace"
                 },
                 "components": [
-                  { "$ref": "#/color/palette/yellow/40/$value/components/0" },
-                  { "$ref": "#/color/palette/yellow/40/$value/components/1" },
-                  { "$ref": "#/color/palette/yellow/40/$value/components/2" }
+                  {
+                    "$ref": "#/color/palette/yellow/40/$value/components/0"
+                  },
+                  {
+                    "$ref": "#/color/palette/yellow/40/$value/components/1"
+                  },
+                  {
+                    "$ref": "#/color/palette/yellow/40/$value/components/2"
+                  }
                 ]
               },
               "$description": "Fill color for input elements in a warning validation state placed on layer 2 backgrounds"
@@ -1176,7 +1969,7 @@
                     "$ref": "#/number/lightness/foreground/input/disabled/onLayer2/onLight/$value"
                   },
                   {
-                    "$ref": "#/color/foreground/input/warning/layer2/$root/$value/components/1"
+                    "$ref": "#/number/saturation/disabled/$value"
                   },
                   {
                     "$ref": "#/color/foreground/input/warning/layer2/$root/$value/components/2"
@@ -1193,9 +1986,15 @@
                   "$ref": "#/color/palette/yellow/20/$value/colorSpace"
                 },
                 "components": [
-                  { "$ref": "#/color/palette/yellow/20/$value/components/0" },
-                  { "$ref": "#/color/palette/yellow/20/$value/components/1" },
-                  { "$ref": "#/color/palette/yellow/20/$value/components/2" }
+                  {
+                    "$ref": "#/color/palette/yellow/20/$value/components/0"
+                  },
+                  {
+                    "$ref": "#/color/palette/yellow/20/$value/components/1"
+                  },
+                  {
+                    "$ref": "#/color/palette/yellow/20/$value/components/2"
+                  }
                 ]
               },
               "$description": "Fill color for input elements in a warning validation state placed on layer 3 backgrounds"
@@ -1248,7 +2047,7 @@
                     "$ref": "#/number/lightness/foreground/input/disabled/onLayer3/onLight/$value"
                   },
                   {
-                    "$ref": "#/color/foreground/input/warning/layer3/$root/$value/components/1"
+                    "$ref": "#/number/saturation/disabled/$value"
                   },
                   {
                     "$ref": "#/color/foreground/input/warning/layer3/$root/$value/components/2"
@@ -1266,9 +2065,15 @@
                 "$ref": "#/color/palette/red/20/$value/colorSpace"
               },
               "components": [
-                { "$ref": "#/color/palette/red/20/$value/components/0" },
-                { "$ref": "#/color/palette/red/20/$value/components/1" },
-                { "$ref": "#/color/palette/red/20/$value/components/2" }
+                {
+                  "$ref": "#/color/palette/red/20/$value/components/0"
+                },
+                {
+                  "$ref": "#/color/palette/red/20/$value/components/1"
+                },
+                {
+                  "$ref": "#/color/palette/red/20/$value/components/2"
+                }
               ]
             },
             "$description": "Fill color for input elements in an error validation state"
@@ -1321,7 +2126,7 @@
                   "$ref": "#/number/lightness/foreground/input/disabled/onLight/$value"
                 },
                 {
-                  "$ref": "#/color/foreground/input/error/$root/$value/components/1"
+                  "$ref": "#/number/saturation/disabled/$value"
                 },
                 {
                   "$ref": "#/color/foreground/input/error/$root/$value/components/2"
@@ -1337,9 +2142,15 @@
                   "$ref": "#/color/palette/red/40/$value/colorSpace"
                 },
                 "components": [
-                  { "$ref": "#/color/palette/red/40/$value/components/0" },
-                  { "$ref": "#/color/palette/red/40/$value/components/1" },
-                  { "$ref": "#/color/palette/red/40/$value/components/2" }
+                  {
+                    "$ref": "#/color/palette/red/40/$value/components/0"
+                  },
+                  {
+                    "$ref": "#/color/palette/red/40/$value/components/1"
+                  },
+                  {
+                    "$ref": "#/color/palette/red/40/$value/components/2"
+                  }
                 ]
               },
               "$description": "Fill color for input elements in an error validation state placed on layer 2 backgrounds"
@@ -1392,7 +2203,7 @@
                     "$ref": "#/number/lightness/foreground/input/disabled/onLayer2/onLight/$value"
                   },
                   {
-                    "$ref": "#/color/foreground/input/error/layer2/$root/$value/components/1"
+                    "$ref": "#/number/saturation/disabled/$value"
                   },
                   {
                     "$ref": "#/color/foreground/input/error/layer2/$root/$value/components/2"
@@ -1409,9 +2220,15 @@
                   "$ref": "#/color/palette/red/20/$value/colorSpace"
                 },
                 "components": [
-                  { "$ref": "#/color/palette/red/20/$value/components/0" },
-                  { "$ref": "#/color/palette/red/20/$value/components/1" },
-                  { "$ref": "#/color/palette/red/20/$value/components/2" }
+                  {
+                    "$ref": "#/color/palette/red/20/$value/components/0"
+                  },
+                  {
+                    "$ref": "#/color/palette/red/20/$value/components/1"
+                  },
+                  {
+                    "$ref": "#/color/palette/red/20/$value/components/2"
+                  }
                 ]
               },
               "$description": "Fill color for input elements in an error validation state placed on layer 3 backgrounds"
@@ -1464,7 +2281,7 @@
                     "$ref": "#/number/lightness/foreground/input/disabled/onLayer3/onLight/$value"
                   },
                   {
-                    "$ref": "#/color/foreground/input/error/layer3/$root/$value/components/1"
+                    "$ref": "#/number/saturation/disabled/$value"
                   },
                   {
                     "$ref": "#/color/foreground/input/error/layer3/$root/$value/components/2"
@@ -1482,9 +2299,15 @@
                 "$ref": "#/color/palette/green/20/$value/colorSpace"
               },
               "components": [
-                { "$ref": "#/color/palette/green/20/$value/components/0" },
-                { "$ref": "#/color/palette/green/20/$value/components/1" },
-                { "$ref": "#/color/palette/green/20/$value/components/2" }
+                {
+                  "$ref": "#/color/palette/green/20/$value/components/0"
+                },
+                {
+                  "$ref": "#/color/palette/green/20/$value/components/1"
+                },
+                {
+                  "$ref": "#/color/palette/green/20/$value/components/2"
+                }
               ]
             },
             "$description": "Fill color for input elements in a success validation state"
@@ -1537,7 +2360,7 @@
                   "$ref": "#/number/lightness/foreground/input/disabled/onLight/$value"
                 },
                 {
-                  "$ref": "#/color/foreground/input/success/$root/$value/components/1"
+                  "$ref": "#/number/saturation/disabled/$value"
                 },
                 {
                   "$ref": "#/color/foreground/input/success/$root/$value/components/2"
@@ -1553,9 +2376,15 @@
                   "$ref": "#/color/palette/green/40/$value/colorSpace"
                 },
                 "components": [
-                  { "$ref": "#/color/palette/green/40/$value/components/0" },
-                  { "$ref": "#/color/palette/green/40/$value/components/1" },
-                  { "$ref": "#/color/palette/green/40/$value/components/2" }
+                  {
+                    "$ref": "#/color/palette/green/40/$value/components/0"
+                  },
+                  {
+                    "$ref": "#/color/palette/green/40/$value/components/1"
+                  },
+                  {
+                    "$ref": "#/color/palette/green/40/$value/components/2"
+                  }
                 ]
               },
               "$description": "Fill color for input elements in a success validation state placed on layer 2 backgrounds"
@@ -1608,7 +2437,7 @@
                     "$ref": "#/number/lightness/foreground/input/disabled/onLayer2/onLight/$value"
                   },
                   {
-                    "$ref": "#/color/foreground/input/success/layer2/$root/$value/components/1"
+                    "$ref": "#/number/saturation/disabled/$value"
                   },
                   {
                     "$ref": "#/color/foreground/input/success/layer2/$root/$value/components/2"
@@ -1625,9 +2454,15 @@
                   "$ref": "#/color/palette/green/20/$value/colorSpace"
                 },
                 "components": [
-                  { "$ref": "#/color/palette/green/20/$value/components/0" },
-                  { "$ref": "#/color/palette/green/20/$value/components/1" },
-                  { "$ref": "#/color/palette/green/20/$value/components/2" }
+                  {
+                    "$ref": "#/color/palette/green/20/$value/components/0"
+                  },
+                  {
+                    "$ref": "#/color/palette/green/20/$value/components/1"
+                  },
+                  {
+                    "$ref": "#/color/palette/green/20/$value/components/2"
+                  }
                 ]
               },
               "$description": "Fill color for input elements in a success validation state placed on layer 3 backgrounds"
@@ -1680,7 +2515,7 @@
                     "$ref": "#/number/lightness/foreground/input/disabled/onLayer3/onLight/$value"
                   },
                   {
-                    "$ref": "#/color/foreground/input/success/layer3/$root/$value/components/1"
+                    "$ref": "#/number/saturation/disabled/$value"
                   },
                   {
                     "$ref": "#/color/foreground/input/success/layer3/$root/$value/components/2"
@@ -1699,9 +2534,15 @@
               "$ref": "#/color/palette/black/$value/colorSpace"
             },
             "components": [
-              { "$ref": "#/color/palette/black/$value/components/0" },
-              { "$ref": "#/color/palette/black/$value/components/1" },
-              { "$ref": "#/color/palette/black/$value/components/2" }
+              {
+                "$ref": "#/color/palette/black/$value/components/0"
+              },
+              {
+                "$ref": "#/color/palette/black/$value/components/1"
+              },
+              {
+                "$ref": "#/color/palette/black/$value/components/2"
+              }
             ]
           },
           "$description": "Fill color for primary interactive elements such as buttons that need high visual prominence"
@@ -1770,9 +2611,15 @@
                 "$ref": "#/color/palette/red/520/$value/colorSpace"
               },
               "components": [
-                { "$ref": "#/color/palette/red/520/$value/components/0" },
-                { "$ref": "#/color/palette/red/520/$value/components/1" },
-                { "$ref": "#/color/palette/red/520/$value/components/2" }
+                {
+                  "$ref": "#/color/palette/red/520/$value/components/0"
+                },
+                {
+                  "$ref": "#/color/palette/red/520/$value/components/1"
+                },
+                {
+                  "$ref": "#/color/palette/red/520/$value/components/2"
+                }
               ]
             },
             "$description": "Fill color for primary interactive elements that perform destructive actions such as delete or remove"
@@ -1825,7 +2672,7 @@
                   "$ref": "#/number/lightness/foreground/primary/disabled/onLight/$value"
                 },
                 {
-                  "$ref": "#/color/foreground/primary/destructive/$root/$value/components/1"
+                  "$ref": "#/number/saturation/disabled/$value"
                 },
                 {
                   "$ref": "#/color/foreground/primary/destructive/$root/$value/components/2"
@@ -1842,9 +2689,15 @@
                 "$ref": "#/color/palette/green/520/$value/colorSpace"
               },
               "components": [
-                { "$ref": "#/color/palette/green/520/$value/components/0" },
-                { "$ref": "#/color/palette/green/520/$value/components/1" },
-                { "$ref": "#/color/palette/green/520/$value/components/2" }
+                {
+                  "$ref": "#/color/palette/green/520/$value/components/0"
+                },
+                {
+                  "$ref": "#/color/palette/green/520/$value/components/1"
+                },
+                {
+                  "$ref": "#/color/palette/green/520/$value/components/2"
+                }
               ]
             },
             "$description": "Fill color for primary interactive elements that perform constructive actions such as save, submit, or confirm"
@@ -1897,7 +2750,7 @@
                   "$ref": "#/number/lightness/foreground/primary/disabled/onLight/$value"
                 },
                 {
-                  "$ref": "#/color/foreground/primary/constructive/$root/$value/components/1"
+                  "$ref": "#/number/saturation/disabled/$value"
                 },
                 {
                   "$ref": "#/color/foreground/primary/constructive/$root/$value/components/2"
@@ -1914,9 +2767,15 @@
                 "$ref": "#/color/palette/orange/520/$value/colorSpace"
               },
               "components": [
-                { "$ref": "#/color/palette/orange/520/$value/components/0" },
-                { "$ref": "#/color/palette/orange/520/$value/components/1" },
-                { "$ref": "#/color/palette/orange/520/$value/components/2" }
+                {
+                  "$ref": "#/color/palette/orange/520/$value/components/0"
+                },
+                {
+                  "$ref": "#/color/palette/orange/520/$value/components/1"
+                },
+                {
+                  "$ref": "#/color/palette/orange/520/$value/components/2"
+                }
               ]
             },
             "$description": "Fill color for primary interactive elements that need to reflect the brand identity"
@@ -1969,7 +2828,7 @@
                   "$ref": "#/number/lightness/foreground/primary/disabled/onLight/$value"
                 },
                 {
-                  "$ref": "#/color/foreground/primary/branded/$root/$value/components/1"
+                  "$ref": "#/number/saturation/disabled/$value"
                 },
                 {
                   "$ref": "#/color/foreground/primary/branded/$root/$value/components/2"
@@ -1987,9 +2846,15 @@
               "$ref": "#/color/palette/gray/100/$value/colorSpace"
             },
             "components": [
-              { "$ref": "#/color/palette/gray/100/$value/components/0" },
-              { "$ref": "#/color/palette/gray/100/$value/components/1" },
-              { "$ref": "#/color/palette/gray/100/$value/components/2" }
+              {
+                "$ref": "#/color/palette/gray/100/$value/components/0"
+              },
+              {
+                "$ref": "#/color/palette/gray/100/$value/components/1"
+              },
+              {
+                "$ref": "#/color/palette/gray/100/$value/components/2"
+              }
             ]
           },
           "$description": "Fill color for secondary interactive elements such as chips that need lower visual prominence than primary"
@@ -2058,9 +2923,15 @@
                 "$ref": "#/color/palette/blue/100/$value/colorSpace"
               },
               "components": [
-                { "$ref": "#/color/palette/blue/100/$value/components/0" },
-                { "$ref": "#/color/palette/blue/100/$value/components/1" },
-                { "$ref": "#/color/palette/blue/100/$value/components/2" }
+                {
+                  "$ref": "#/color/palette/blue/100/$value/components/0"
+                },
+                {
+                  "$ref": "#/color/palette/blue/100/$value/components/1"
+                },
+                {
+                  "$ref": "#/color/palette/blue/100/$value/components/2"
+                }
               ]
             },
             "$description": "Fill color for secondary interactive elements conveying informational or neutral feedback"
@@ -2113,7 +2984,7 @@
                   "$ref": "#/number/lightness/foreground/secondary/disabled/onLight/$value"
                 },
                 {
-                  "$ref": "#/color/foreground/secondary/information/$root/$value/components/1"
+                  "$ref": "#/number/saturation/disabled/$value"
                 },
                 {
                   "$ref": "#/color/foreground/secondary/information/$root/$value/components/2"
@@ -2130,9 +3001,15 @@
                 "$ref": "#/color/palette/yellow/100/$value/colorSpace"
               },
               "components": [
-                { "$ref": "#/color/palette/yellow/100/$value/components/0" },
-                { "$ref": "#/color/palette/yellow/100/$value/components/1" },
-                { "$ref": "#/color/palette/yellow/100/$value/components/2" }
+                {
+                  "$ref": "#/color/palette/yellow/100/$value/components/0"
+                },
+                {
+                  "$ref": "#/color/palette/yellow/100/$value/components/1"
+                },
+                {
+                  "$ref": "#/color/palette/yellow/100/$value/components/2"
+                }
               ]
             },
             "$description": "Fill color for secondary interactive elements conveying caution or potential issues"
@@ -2185,7 +3062,7 @@
                   "$ref": "#/number/lightness/foreground/secondary/disabled/onLight/$value"
                 },
                 {
-                  "$ref": "#/color/foreground/secondary/warning/$root/$value/components/1"
+                  "$ref": "#/number/saturation/disabled/$value"
                 },
                 {
                   "$ref": "#/color/foreground/secondary/warning/$root/$value/components/2"
@@ -2202,9 +3079,15 @@
                 "$ref": "#/color/palette/red/100/$value/colorSpace"
               },
               "components": [
-                { "$ref": "#/color/palette/red/100/$value/components/0" },
-                { "$ref": "#/color/palette/red/100/$value/components/1" },
-                { "$ref": "#/color/palette/red/100/$value/components/2" }
+                {
+                  "$ref": "#/color/palette/red/100/$value/components/0"
+                },
+                {
+                  "$ref": "#/color/palette/red/100/$value/components/1"
+                },
+                {
+                  "$ref": "#/color/palette/red/100/$value/components/2"
+                }
               ]
             },
             "$description": "Fill color for secondary interactive elements indicating errors or critical issues"
@@ -2257,7 +3140,7 @@
                   "$ref": "#/number/lightness/foreground/secondary/disabled/onLight/$value"
                 },
                 {
-                  "$ref": "#/color/foreground/secondary/error/$root/$value/components/1"
+                  "$ref": "#/number/saturation/disabled/$value"
                 },
                 {
                   "$ref": "#/color/foreground/secondary/error/$root/$value/components/2"
@@ -2274,9 +3157,15 @@
                 "$ref": "#/color/palette/green/100/$value/colorSpace"
               },
               "components": [
-                { "$ref": "#/color/palette/green/100/$value/components/0" },
-                { "$ref": "#/color/palette/green/100/$value/components/1" },
-                { "$ref": "#/color/palette/green/100/$value/components/2" }
+                {
+                  "$ref": "#/color/palette/green/100/$value/components/0"
+                },
+                {
+                  "$ref": "#/color/palette/green/100/$value/components/1"
+                },
+                {
+                  "$ref": "#/color/palette/green/100/$value/components/2"
+                }
               ]
             },
             "$description": "Fill color for secondary interactive elements indicating successful completion or positive outcomes"
@@ -2329,7 +3218,7 @@
                   "$ref": "#/number/lightness/foreground/secondary/disabled/onLight/$value"
                 },
                 {
-                  "$ref": "#/color/foreground/secondary/success/$root/$value/components/1"
+                  "$ref": "#/number/saturation/disabled/$value"
                 },
                 {
                   "$ref": "#/color/foreground/secondary/success/$root/$value/components/2"
@@ -2346,9 +3235,15 @@
                 "$ref": "#/color/palette/orange/100/$value/colorSpace"
               },
               "components": [
-                { "$ref": "#/color/palette/orange/100/$value/components/0" },
-                { "$ref": "#/color/palette/orange/100/$value/components/1" },
-                { "$ref": "#/color/palette/orange/100/$value/components/2" }
+                {
+                  "$ref": "#/color/palette/orange/100/$value/components/0"
+                },
+                {
+                  "$ref": "#/color/palette/orange/100/$value/components/1"
+                },
+                {
+                  "$ref": "#/color/palette/orange/100/$value/components/2"
+                }
               ]
             },
             "$description": "Fill color for secondary interactive elements that need to reflect the brand identity"
@@ -2401,7 +3296,7 @@
                   "$ref": "#/number/lightness/foreground/secondary/disabled/onLight/$value"
                 },
                 {
-                  "$ref": "#/color/foreground/secondary/branded/$root/$value/components/1"
+                  "$ref": "#/number/saturation/disabled/$value"
                 },
                 {
                   "$ref": "#/color/foreground/secondary/branded/$root/$value/components/2"
@@ -2418,9 +3313,15 @@
                 "$ref": "#/color/palette/gray/100/$value/colorSpace"
               },
               "components": [
-                { "$ref": "#/color/palette/gray/100/$value/components/0" },
-                { "$ref": "#/color/palette/gray/100/$value/components/1" },
-                { "$ref": "#/number/hue/category/$value" }
+                {
+                  "$ref": "#/color/palette/gray/100/$value/components/0"
+                },
+                {
+                  "$ref": "#/color/palette/gray/100/$value/components/1"
+                },
+                {
+                  "$ref": "#/number/hue/category/$value"
+                }
               ]
             },
             "$description": "Fill color for secondary elements where a custom hue is needed. Use for user-generated categories, tags, or chips where semantic color meaning isn't predefined. Override number.hue.category on the element to set the hue while maintaining accessibility through consistent lightness and saturation with color.foreground.secondary."
@@ -2515,7 +3416,7 @@
                   "$ref": "#/number/lightness/foreground/primary/disabled/onLight/$value"
                 },
                 {
-                  "$ref": "#/color/foreground/slider/progress/$root/$value/components/1"
+                  "$ref": "#/number/saturation/disabled/$value"
                 },
                 {
                   "$ref": "#/color/foreground/slider/progress/$root/$value/components/2"
@@ -2532,9 +3433,15 @@
                 "$ref": "#/color/palette/gray/100/$value/colorSpace"
               },
               "components": [
-                { "$ref": "#/color/palette/gray/100/$value/components/0" },
-                { "$ref": "#/color/palette/gray/100/$value/components/1" },
-                { "$ref": "#/color/palette/gray/100/$value/components/2" }
+                {
+                  "$ref": "#/color/palette/gray/100/$value/components/0"
+                },
+                {
+                  "$ref": "#/color/palette/gray/100/$value/components/1"
+                },
+                {
+                  "$ref": "#/color/palette/gray/100/$value/components/2"
+                }
               ]
             },
             "$description": "Fill color for the track background of slider components"
@@ -2565,9 +3472,15 @@
                   "$ref": "#/color/palette/gray/520/$value/colorSpace"
                 },
                 "components": [
-                  { "$ref": "#/color/palette/gray/520/$value/components/0" },
-                  { "$ref": "#/color/palette/gray/520/$value/components/1" },
-                  { "$ref": "#/color/palette/gray/520/$value/components/2" }
+                  {
+                    "$ref": "#/color/palette/gray/520/$value/components/0"
+                  },
+                  {
+                    "$ref": "#/color/palette/gray/520/$value/components/1"
+                  },
+                  {
+                    "$ref": "#/color/palette/gray/520/$value/components/2"
+                  }
                 ]
               },
               "$description": "Fill color for the endstop markers at the ends of slider tracks"
@@ -2686,9 +3599,15 @@
                 "$ref": "#/color/palette/blue/520/$value/colorSpace"
               },
               "components": [
-                { "$ref": "#/color/palette/blue/520/$value/components/0" },
-                { "$ref": "#/color/palette/blue/520/$value/components/1" },
-                { "$ref": "#/color/palette/blue/520/$value/components/2" }
+                {
+                  "$ref": "#/color/palette/blue/520/$value/components/0"
+                },
+                {
+                  "$ref": "#/color/palette/blue/520/$value/components/1"
+                },
+                {
+                  "$ref": "#/color/palette/blue/520/$value/components/2"
+                }
               ]
             },
             "$description": "Fill color for the checkbox container when selected"
@@ -2703,7 +3622,7 @@
                   "$ref": "#/number/lightness/foreground/primary/disabled/onLight/$value"
                 },
                 {
-                  "$ref": "#/color/foreground/checkbox/selected/$root/$value/components/1"
+                  "$ref": "#/number/saturation/disabled/$value"
                 },
                 {
                   "$ref": "#/color/foreground/checkbox/selected/$root/$value/components/2"
@@ -2858,9 +3777,15 @@
                 "$ref": "#/color/palette/gray/520/$value/colorSpace"
               },
               "components": [
-                { "$ref": "#/color/palette/gray/520/$value/components/0" },
-                { "$ref": "#/color/palette/gray/520/$value/components/1" },
-                { "$ref": "#/color/palette/gray/520/$value/components/2" }
+                {
+                  "$ref": "#/color/palette/gray/520/$value/components/0"
+                },
+                {
+                  "$ref": "#/color/palette/gray/520/$value/components/1"
+                },
+                {
+                  "$ref": "#/color/palette/gray/520/$value/components/2"
+                }
               ]
             },
             "$description": "Fill color for the switch track when the switch is in an unselected (off) state"
@@ -3054,22 +3979,38 @@
     "text": {
       "$root": {
         "$value": {
-          "colorSpace": { "$ref": "#/color/palette/black/$value/colorSpace" },
+          "colorSpace": {
+            "$ref": "#/color/palette/black/$value/colorSpace"
+          },
           "components": [
-            { "$ref": "#/color/palette/black/$value/components/0" },
-            { "$ref": "#/color/palette/black/$value/components/1" },
-            { "$ref": "#/color/palette/black/$value/components/2" }
+            {
+              "$ref": "#/color/palette/black/$value/components/0"
+            },
+            {
+              "$ref": "#/color/palette/black/$value/components/1"
+            },
+            {
+              "$ref": "#/color/palette/black/$value/components/2"
+            }
           ]
         },
         "$description": "Default text color for prose and UI text"
       },
       "disabled": {
         "$value": {
-          "colorSpace": { "$ref": "#/color/text/$root/$value/colorSpace" },
+          "colorSpace": {
+            "$ref": "#/color/text/$root/$value/colorSpace"
+          },
           "components": [
-            { "$ref": "#/number/lightness/text/disabled/onLight/$value" },
-            { "$ref": "#/color/text/$root/$value/components/1" },
-            { "$ref": "#/color/text/$root/$value/components/2" }
+            {
+              "$ref": "#/number/lightness/text/disabled/onLight/$value"
+            },
+            {
+              "$ref": "#/color/text/$root/$value/components/1"
+            },
+            {
+              "$ref": "#/color/text/$root/$value/components/2"
+            }
           ]
         },
         "$description": "Text color to use when the element is in a disabled state"
@@ -3081,9 +4022,15 @@
               "$ref": "#/color/palette/blue/590/$value/colorSpace"
             },
             "components": [
-              { "$ref": "#/color/palette/blue/590/$value/components/0" },
-              { "$ref": "#/color/palette/blue/590/$value/components/1" },
-              { "$ref": "#/color/palette/blue/590/$value/components/2" }
+              {
+                "$ref": "#/color/palette/blue/590/$value/components/0"
+              },
+              {
+                "$ref": "#/color/palette/blue/590/$value/components/1"
+              },
+              {
+                "$ref": "#/color/palette/blue/590/$value/components/2"
+              }
             ]
           },
           "$description": "Text color for conveying informational or neutral feedback"
@@ -3094,9 +4041,15 @@
               "$ref": "#/color/text/information/$root/$value/colorSpace"
             },
             "components": [
-              { "$ref": "#/number/lightness/text/disabled/onLight/$value" },
-              { "$ref": "#/color/text/information/$root/$value/components/1" },
-              { "$ref": "#/color/text/information/$root/$value/components/2" }
+              {
+                "$ref": "#/number/lightness/text/disabled/onLight/$value"
+              },
+              {
+                "$ref": "#/number/saturation/disabled/$value"
+              },
+              {
+                "$ref": "#/color/text/information/$root/$value/components/2"
+              }
             ]
           },
           "$description": "Information text color to use when the element is in a disabled state"
@@ -3109,9 +4062,15 @@
               "$ref": "#/color/palette/yellow/590/$value/colorSpace"
             },
             "components": [
-              { "$ref": "#/color/palette/yellow/590/$value/components/0" },
-              { "$ref": "#/color/palette/yellow/590/$value/components/1" },
-              { "$ref": "#/color/palette/yellow/590/$value/components/2" }
+              {
+                "$ref": "#/color/palette/yellow/590/$value/components/0"
+              },
+              {
+                "$ref": "#/color/palette/yellow/590/$value/components/1"
+              },
+              {
+                "$ref": "#/color/palette/yellow/590/$value/components/2"
+              }
             ]
           },
           "$description": "Text color for conveying caution or potential issues"
@@ -3122,9 +4081,15 @@
               "$ref": "#/color/text/warning/$root/$value/colorSpace"
             },
             "components": [
-              { "$ref": "#/number/lightness/text/disabled/onLight/$value" },
-              { "$ref": "#/color/text/warning/$root/$value/components/1" },
-              { "$ref": "#/color/text/warning/$root/$value/components/2" }
+              {
+                "$ref": "#/number/lightness/text/disabled/onLight/$value"
+              },
+              {
+                "$ref": "#/number/saturation/disabled/$value"
+              },
+              {
+                "$ref": "#/color/text/warning/$root/$value/components/2"
+              }
             ]
           },
           "$description": "Warning text color to use when the element is in a disabled state"
@@ -3137,9 +4102,15 @@
               "$ref": "#/color/palette/red/590/$value/colorSpace"
             },
             "components": [
-              { "$ref": "#/color/palette/red/590/$value/components/0" },
-              { "$ref": "#/color/palette/red/590/$value/components/1" },
-              { "$ref": "#/color/palette/red/590/$value/components/2" }
+              {
+                "$ref": "#/color/palette/red/590/$value/components/0"
+              },
+              {
+                "$ref": "#/color/palette/red/590/$value/components/1"
+              },
+              {
+                "$ref": "#/color/palette/red/590/$value/components/2"
+              }
             ]
           },
           "$description": "Text color for indicating errors or critical issues"
@@ -3150,9 +4121,15 @@
               "$ref": "#/color/text/error/$root/$value/colorSpace"
             },
             "components": [
-              { "$ref": "#/number/lightness/text/disabled/onLight/$value" },
-              { "$ref": "#/color/text/error/$root/$value/components/1" },
-              { "$ref": "#/color/text/error/$root/$value/components/2" }
+              {
+                "$ref": "#/number/lightness/text/disabled/onLight/$value"
+              },
+              {
+                "$ref": "#/number/saturation/disabled/$value"
+              },
+              {
+                "$ref": "#/color/text/error/$root/$value/components/2"
+              }
             ]
           },
           "$description": "Error text color to use when the element is in a disabled state"
@@ -3165,9 +4142,15 @@
               "$ref": "#/color/palette/green/590/$value/colorSpace"
             },
             "components": [
-              { "$ref": "#/color/palette/green/590/$value/components/0" },
-              { "$ref": "#/color/palette/green/590/$value/components/1" },
-              { "$ref": "#/color/palette/green/590/$value/components/2" }
+              {
+                "$ref": "#/color/palette/green/590/$value/components/0"
+              },
+              {
+                "$ref": "#/color/palette/green/590/$value/components/1"
+              },
+              {
+                "$ref": "#/color/palette/green/590/$value/components/2"
+              }
             ]
           },
           "$description": "Text color for indicating successful completion or positive outcomes"
@@ -3178,9 +4161,15 @@
               "$ref": "#/color/text/success/$root/$value/colorSpace"
             },
             "components": [
-              { "$ref": "#/number/lightness/text/disabled/onLight/$value" },
-              { "$ref": "#/color/text/success/$root/$value/components/1" },
-              { "$ref": "#/color/text/success/$root/$value/components/2" }
+              {
+                "$ref": "#/number/lightness/text/disabled/onLight/$value"
+              },
+              {
+                "$ref": "#/number/saturation/disabled/$value"
+              },
+              {
+                "$ref": "#/color/text/success/$root/$value/components/2"
+              }
             ]
           },
           "$description": "Success text color to use when the element is in a disabled state"
@@ -3193,9 +4182,15 @@
               "$ref": "#/color/palette/red/590/$value/colorSpace"
             },
             "components": [
-              { "$ref": "#/color/palette/red/590/$value/components/0" },
-              { "$ref": "#/color/palette/red/590/$value/components/1" },
-              { "$ref": "#/color/palette/red/590/$value/components/2" }
+              {
+                "$ref": "#/color/palette/red/590/$value/components/0"
+              },
+              {
+                "$ref": "#/color/palette/red/590/$value/components/1"
+              },
+              {
+                "$ref": "#/color/palette/red/590/$value/components/2"
+              }
             ]
           },
           "$description": "Text color for destructive actions such as delete or remove"
@@ -3206,9 +4201,15 @@
               "$ref": "#/color/text/destructive/$root/$value/colorSpace"
             },
             "components": [
-              { "$ref": "#/number/lightness/text/disabled/onLight/$value" },
-              { "$ref": "#/color/text/destructive/$root/$value/components/1" },
-              { "$ref": "#/color/text/destructive/$root/$value/components/2" }
+              {
+                "$ref": "#/number/lightness/text/disabled/onLight/$value"
+              },
+              {
+                "$ref": "#/number/saturation/disabled/$value"
+              },
+              {
+                "$ref": "#/color/text/destructive/$root/$value/components/2"
+              }
             ]
           },
           "$description": "Destructive text color to use when the element is in a disabled state"
@@ -3221,9 +4222,15 @@
               "$ref": "#/color/palette/green/590/$value/colorSpace"
             },
             "components": [
-              { "$ref": "#/color/palette/green/590/$value/components/0" },
-              { "$ref": "#/color/palette/green/590/$value/components/1" },
-              { "$ref": "#/color/palette/green/590/$value/components/2" }
+              {
+                "$ref": "#/color/palette/green/590/$value/components/0"
+              },
+              {
+                "$ref": "#/color/palette/green/590/$value/components/1"
+              },
+              {
+                "$ref": "#/color/palette/green/590/$value/components/2"
+              }
             ]
           },
           "$description": "Text color for constructive actions such as save, submit, or confirm"
@@ -3234,14 +4241,58 @@
               "$ref": "#/color/text/constructive/$root/$value/colorSpace"
             },
             "components": [
-              { "$ref": "#/number/lightness/text/disabled/onLight/$value" },
               {
-                "$ref": "#/color/text/constructive/$root/$value/components/1"
+                "$ref": "#/number/lightness/text/disabled/onLight/$value"
               },
-              { "$ref": "#/color/text/constructive/$root/$value/components/2" }
+              {
+                "$ref": "#/number/saturation/disabled/$value"
+              },
+              {
+                "$ref": "#/color/text/constructive/$root/$value/components/2"
+              }
             ]
           },
           "$description": "Constructive text color to use when the element is in a disabled state"
+        }
+      },
+      "branded": {
+        "$root": {
+          "$value": {
+            "colorSpace": {
+              "$ref": "#/color/palette/orange/590/$value/colorSpace"
+            },
+            "components": [
+              {
+                "$ref": "#/color/palette/orange/590/$value/components/0"
+              },
+              {
+                "$ref": "#/color/palette/orange/590/$value/components/1"
+              },
+              {
+                "$ref": "#/color/palette/orange/590/$value/components/2"
+              }
+            ]
+          },
+          "$description": "Text color for branded elements that need to reflect the brand identity"
+        },
+        "disabled": {
+          "$value": {
+            "colorSpace": {
+              "$ref": "#/color/text/branded/$root/$value/colorSpace"
+            },
+            "components": [
+              {
+                "$ref": "#/number/lightness/text/disabled/onLight/$value"
+              },
+              {
+                "$ref": "#/number/saturation/disabled/$value"
+              },
+              {
+                "$ref": "#/color/text/branded/$root/$value/components/2"
+              }
+            ]
+          },
+          "$description": "Branded text color to use when the element is in a disabled state"
         }
       },
       "muted": {
@@ -3251,9 +4302,15 @@
               "$ref": "#/color/palette/gray/590/$value/colorSpace"
             },
             "components": [
-              { "$ref": "#/color/palette/gray/590/$value/components/0" },
-              { "$ref": "#/color/palette/gray/590/$value/components/1" },
-              { "$ref": "#/color/palette/gray/590/$value/components/2" }
+              {
+                "$ref": "#/color/palette/gray/590/$value/components/0"
+              },
+              {
+                "$ref": "#/color/palette/gray/590/$value/components/1"
+              },
+              {
+                "$ref": "#/color/palette/gray/590/$value/components/2"
+              }
             ]
           },
           "$description": "Subtle text color for low-emphasis or secondary information"
@@ -3267,8 +4324,12 @@
               {
                 "$ref": "#/number/lightness/text/muted/disabled/onLight/$value"
               },
-              { "$ref": "#/color/text/muted/$root/$value/components/1" },
-              { "$ref": "#/color/text/muted/$root/$value/components/2" }
+              {
+                "$ref": "#/color/text/muted/$root/$value/components/1"
+              },
+              {
+                "$ref": "#/color/text/muted/$root/$value/components/2"
+              }
             ]
           },
           "$description": "Muted text color to use when the element is in a disabled state"
@@ -3281,9 +4342,15 @@
               "$ref": "#/color/palette/blue/590/$value/colorSpace"
             },
             "components": [
-              { "$ref": "#/color/palette/blue/590/$value/components/0" },
-              { "$ref": "#/color/palette/blue/590/$value/components/1" },
-              { "$ref": "#/color/palette/blue/590/$value/components/2" }
+              {
+                "$ref": "#/color/palette/blue/590/$value/components/0"
+              },
+              {
+                "$ref": "#/color/palette/blue/590/$value/components/1"
+              },
+              {
+                "$ref": "#/color/palette/blue/590/$value/components/2"
+              }
             ]
           },
           "$description": "Text color for hyperlinks"
@@ -3297,8 +4364,12 @@
               {
                 "$ref": "#/number/lightness/text/link/disabled/onLight/$value"
               },
-              { "$ref": "#/color/text/link/$root/$value/components/1" },
-              { "$ref": "#/color/text/link/$root/$value/components/2" }
+              {
+                "$ref": "#/number/saturation/disabled/$value"
+              },
+              {
+                "$ref": "#/color/text/link/$root/$value/components/2"
+              }
             ]
           },
           "$description": "Link text color to use when the element is in a disabled state"
@@ -3310,9 +4381,15 @@
                 "$ref": "#/color/palette/purple/590/$value/colorSpace"
               },
               "components": [
-                { "$ref": "#/color/palette/purple/590/$value/components/0" },
-                { "$ref": "#/color/palette/purple/590/$value/components/1" },
-                { "$ref": "#/color/palette/purple/590/$value/components/2" }
+                {
+                  "$ref": "#/color/palette/purple/590/$value/components/0"
+                },
+                {
+                  "$ref": "#/color/palette/purple/590/$value/components/1"
+                },
+                {
+                  "$ref": "#/color/palette/purple/590/$value/components/2"
+                }
               ]
             },
             "$description": "Text color for hyperlinks that have been visited"
@@ -3327,7 +4404,7 @@
                   "$ref": "#/number/lightness/text/link/disabled/onLight/$value"
                 },
                 {
-                  "$ref": "#/color/text/link/visited/$root/$value/components/1"
+                  "$ref": "#/number/saturation/disabled/$value"
                 },
                 {
                   "$ref": "#/color/text/link/visited/$root/$value/components/2"
@@ -3345,9 +4422,15 @@
               "$ref": "#/color/palette/white/$value/colorSpace"
             },
             "components": [
-              { "$ref": "#/color/palette/white/$value/components/0" },
-              { "$ref": "#/color/palette/white/$value/components/1" },
-              { "$ref": "#/color/palette/white/$value/components/2" }
+              {
+                "$ref": "#/color/palette/white/$value/components/0"
+              },
+              {
+                "$ref": "#/color/palette/white/$value/components/1"
+              },
+              {
+                "$ref": "#/color/palette/white/$value/components/2"
+              }
             ]
           },
           "$description": "Text color for text placed on primary foreground surfaces"
@@ -3379,9 +4462,15 @@
               "$ref": "#/color/palette/gray/700/$value/colorSpace"
             },
             "components": [
-              { "$ref": "#/color/palette/gray/700/$value/components/0" },
-              { "$ref": "#/color/palette/gray/700/$value/components/1" },
-              { "$ref": "#/color/palette/gray/700/$value/components/2" }
+              {
+                "$ref": "#/color/palette/gray/700/$value/components/0"
+              },
+              {
+                "$ref": "#/color/palette/gray/700/$value/components/1"
+              },
+              {
+                "$ref": "#/color/palette/gray/700/$value/components/2"
+              }
             ]
           },
           "$description": "Text color for text placed on secondary foreground surfaces"
@@ -3412,9 +4501,15 @@
                 "$ref": "#/color/palette/blue/700/$value/colorSpace"
               },
               "components": [
-                { "$ref": "#/color/palette/blue/700/$value/components/0" },
-                { "$ref": "#/color/palette/blue/700/$value/components/1" },
-                { "$ref": "#/color/palette/blue/700/$value/components/2" }
+                {
+                  "$ref": "#/color/palette/blue/700/$value/components/0"
+                },
+                {
+                  "$ref": "#/color/palette/blue/700/$value/components/1"
+                },
+                {
+                  "$ref": "#/color/palette/blue/700/$value/components/2"
+                }
               ]
             },
             "$description": "Information text color for text placed on secondary foreground surfaces"
@@ -3429,7 +4524,7 @@
                   "$ref": "#/number/lightness/text/onForegroundSecondary/disabled/onLight/$value"
                 },
                 {
-                  "$ref": "#/color/text/onForegroundSecondary/information/$root/$value/components/1"
+                  "$ref": "#/number/saturation/disabled/$value"
                 },
                 {
                   "$ref": "#/color/text/onForegroundSecondary/information/$root/$value/components/2"
@@ -3446,9 +4541,15 @@
                 "$ref": "#/color/palette/yellow/700/$value/colorSpace"
               },
               "components": [
-                { "$ref": "#/color/palette/yellow/700/$value/components/0" },
-                { "$ref": "#/color/palette/yellow/700/$value/components/1" },
-                { "$ref": "#/color/palette/yellow/700/$value/components/2" }
+                {
+                  "$ref": "#/color/palette/yellow/700/$value/components/0"
+                },
+                {
+                  "$ref": "#/color/palette/yellow/700/$value/components/1"
+                },
+                {
+                  "$ref": "#/color/palette/yellow/700/$value/components/2"
+                }
               ]
             },
             "$description": "Warning text color for text placed on secondary foreground surfaces"
@@ -3463,7 +4564,7 @@
                   "$ref": "#/number/lightness/text/onForegroundSecondary/disabled/onLight/$value"
                 },
                 {
-                  "$ref": "#/color/text/onForegroundSecondary/warning/$root/$value/components/1"
+                  "$ref": "#/number/saturation/disabled/$value"
                 },
                 {
                   "$ref": "#/color/text/onForegroundSecondary/warning/$root/$value/components/2"
@@ -3480,9 +4581,15 @@
                 "$ref": "#/color/palette/red/700/$value/colorSpace"
               },
               "components": [
-                { "$ref": "#/color/palette/red/700/$value/components/0" },
-                { "$ref": "#/color/palette/red/700/$value/components/1" },
-                { "$ref": "#/color/palette/red/700/$value/components/2" }
+                {
+                  "$ref": "#/color/palette/red/700/$value/components/0"
+                },
+                {
+                  "$ref": "#/color/palette/red/700/$value/components/1"
+                },
+                {
+                  "$ref": "#/color/palette/red/700/$value/components/2"
+                }
               ]
             },
             "$description": "Error text color for text placed on secondary foreground surfaces"
@@ -3497,7 +4604,7 @@
                   "$ref": "#/number/lightness/text/onForegroundSecondary/disabled/onLight/$value"
                 },
                 {
-                  "$ref": "#/color/text/onForegroundSecondary/error/$root/$value/components/1"
+                  "$ref": "#/number/saturation/disabled/$value"
                 },
                 {
                   "$ref": "#/color/text/onForegroundSecondary/error/$root/$value/components/2"
@@ -3514,9 +4621,15 @@
                 "$ref": "#/color/palette/green/700/$value/colorSpace"
               },
               "components": [
-                { "$ref": "#/color/palette/green/700/$value/components/0" },
-                { "$ref": "#/color/palette/green/700/$value/components/1" },
-                { "$ref": "#/color/palette/green/700/$value/components/2" }
+                {
+                  "$ref": "#/color/palette/green/700/$value/components/0"
+                },
+                {
+                  "$ref": "#/color/palette/green/700/$value/components/1"
+                },
+                {
+                  "$ref": "#/color/palette/green/700/$value/components/2"
+                }
               ]
             },
             "$description": "Success text color for text placed on secondary foreground surfaces"
@@ -3531,7 +4644,7 @@
                   "$ref": "#/number/lightness/text/onForegroundSecondary/disabled/onLight/$value"
                 },
                 {
-                  "$ref": "#/color/text/onForegroundSecondary/success/$root/$value/components/1"
+                  "$ref": "#/number/saturation/disabled/$value"
                 },
                 {
                   "$ref": "#/color/text/onForegroundSecondary/success/$root/$value/components/2"
@@ -3548,9 +4661,15 @@
                 "$ref": "#/color/palette/gray/700/$value/colorSpace"
               },
               "components": [
-                { "$ref": "#/color/palette/gray/700/$value/components/0" },
-                { "$ref": "#/color/palette/gray/700/$value/components/1" },
-                { "$ref": "#/number/hue/category/$value" }
+                {
+                  "$ref": "#/color/palette/gray/700/$value/components/0"
+                },
+                {
+                  "$ref": "#/color/palette/gray/700/$value/components/1"
+                },
+                {
+                  "$ref": "#/number/hue/category/$value"
+                }
               ]
             },
             "$description": "Text color for text placed on color.foreground.secondary.category elements. Use for user-generated categories, tags, or chips where a custom hue is needed. Override number.hue.category on the element to set the hue while maintaining accessibility through consistent lightness and saturation."
