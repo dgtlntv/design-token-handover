@@ -160,7 +160,7 @@
                 "$ref": "#/number/lightness/border/disabled/onDark/$value"
               },
               {
-                "$ref": "#/number/saturation/disabled/$value"
+                "$ref": "#/number/chroma/disabled/$value"
               },
               {
                 "$ref": "#/color/border/information/$root/$value/components/2"
@@ -200,7 +200,7 @@
                 "$ref": "#/number/lightness/border/disabled/onDark/$value"
               },
               {
-                "$ref": "#/number/saturation/disabled/$value"
+                "$ref": "#/number/chroma/disabled/$value"
               },
               {
                 "$ref": "#/color/border/warning/$root/$value/components/2"
@@ -240,7 +240,7 @@
                 "$ref": "#/number/lightness/border/disabled/onDark/$value"
               },
               {
-                "$ref": "#/number/saturation/disabled/$value"
+                "$ref": "#/number/chroma/disabled/$value"
               },
               {
                 "$ref": "#/color/border/error/$root/$value/components/2"
@@ -280,7 +280,7 @@
                 "$ref": "#/number/lightness/border/disabled/onDark/$value"
               },
               {
-                "$ref": "#/number/saturation/disabled/$value"
+                "$ref": "#/number/chroma/disabled/$value"
               },
               {
                 "$ref": "#/color/border/success/$root/$value/components/2"
@@ -320,7 +320,7 @@
                 "$ref": "#/number/lightness/border/disabled/onDark/$value"
               },
               {
-                "$ref": "#/number/saturation/disabled/$value"
+                "$ref": "#/number/chroma/disabled/$value"
               },
               {
                 "$ref": "#/color/border/branded/$root/$value/components/2"
@@ -428,7 +428,7 @@
               }
             ]
           },
-          "$description": "Border color for elements using color.foreground.secondary.category. Use for user-generated categories, tags, or chips where a custom hue is needed. Override number.hue.category on the element to set the hue while maintaining accessibility through consistent lightness and saturation."
+          "$description": "Border color for elements using color.foreground.secondary.category. Use for user-generated categories, tags, or chips where a custom hue is needed. Override number.hue.category on the element to set the hue while maintaining accessibility through consistent lightness and chroma."
         },
         "disabled": {
           "$value": {
@@ -762,7 +762,7 @@
                   "$ref": "#/number/lightness/foreground/ghost/disabled/onDark/$value"
                 },
                 {
-                  "$ref": "#/number/saturation/disabled/$value"
+                  "$ref": "#/number/chroma/disabled/$value"
                 },
                 {
                   "$ref": "#/color/palette/red/930/$value/components/2"
@@ -824,7 +824,7 @@
                     "$ref": "#/number/lightness/foreground/ghost/disabled/onLayer2/onDark/$value"
                   },
                   {
-                    "$ref": "#/number/saturation/disabled/$value"
+                    "$ref": "#/number/chroma/disabled/$value"
                   },
                   {
                     "$ref": "#/color/palette/red/930/$value/components/2"
@@ -887,7 +887,7 @@
                     "$ref": "#/number/lightness/foreground/ghost/disabled/onLayer3/onDark/$value"
                   },
                   {
-                    "$ref": "#/number/saturation/disabled/$value"
+                    "$ref": "#/number/chroma/disabled/$value"
                   },
                   {
                     "$ref": "#/color/palette/red/930/$value/components/2"
@@ -951,7 +951,7 @@
                   "$ref": "#/number/lightness/foreground/ghost/disabled/onDark/$value"
                 },
                 {
-                  "$ref": "#/number/saturation/disabled/$value"
+                  "$ref": "#/number/chroma/disabled/$value"
                 },
                 {
                   "$ref": "#/color/palette/green/930/$value/components/2"
@@ -1013,7 +1013,7 @@
                     "$ref": "#/number/lightness/foreground/ghost/disabled/onLayer2/onDark/$value"
                   },
                   {
-                    "$ref": "#/number/saturation/disabled/$value"
+                    "$ref": "#/number/chroma/disabled/$value"
                   },
                   {
                     "$ref": "#/color/palette/green/930/$value/components/2"
@@ -1076,7 +1076,7 @@
                     "$ref": "#/number/lightness/foreground/ghost/disabled/onLayer3/onDark/$value"
                   },
                   {
-                    "$ref": "#/number/saturation/disabled/$value"
+                    "$ref": "#/number/chroma/disabled/$value"
                   },
                   {
                     "$ref": "#/color/palette/green/930/$value/components/2"
@@ -1140,7 +1140,7 @@
                   "$ref": "#/number/lightness/foreground/ghost/disabled/onDark/$value"
                 },
                 {
-                  "$ref": "#/number/saturation/disabled/$value"
+                  "$ref": "#/number/chroma/disabled/$value"
                 },
                 {
                   "$ref": "#/color/palette/orange/930/$value/components/2"
@@ -1202,7 +1202,7 @@
                     "$ref": "#/number/lightness/foreground/ghost/disabled/onLayer2/onDark/$value"
                   },
                   {
-                    "$ref": "#/number/saturation/disabled/$value"
+                    "$ref": "#/number/chroma/disabled/$value"
                   },
                   {
                     "$ref": "#/color/palette/orange/930/$value/components/2"
@@ -1265,7 +1265,7 @@
                     "$ref": "#/number/lightness/foreground/ghost/disabled/onLayer3/onDark/$value"
                   },
                   {
-                    "$ref": "#/number/saturation/disabled/$value"
+                    "$ref": "#/number/chroma/disabled/$value"
                   },
                   {
                     "$ref": "#/color/palette/orange/930/$value/components/2"
@@ -1892,7 +1892,7 @@
                   "$ref": "#/number/lightness/foreground/input/disabled/onDark/$value"
                 },
                 {
-                  "$ref": "#/number/saturation/disabled/$value"
+                  "$ref": "#/number/chroma/disabled/$value"
                 },
                 {
                   "$ref": "#/color/foreground/input/warning/$root/$value/components/2"
@@ -1969,7 +1969,7 @@
                     "$ref": "#/number/lightness/foreground/input/disabled/onLayer2/onDark/$value"
                   },
                   {
-                    "$ref": "#/number/saturation/disabled/$value"
+                    "$ref": "#/number/chroma/disabled/$value"
                   },
                   {
                     "$ref": "#/color/foreground/input/warning/layer2/$root/$value/components/2"
@@ -2047,7 +2047,7 @@
                     "$ref": "#/number/lightness/foreground/input/disabled/onLayer3/onDark/$value"
                   },
                   {
-                    "$ref": "#/number/saturation/disabled/$value"
+                    "$ref": "#/number/chroma/disabled/$value"
                   },
                   {
                     "$ref": "#/color/foreground/input/warning/layer3/$root/$value/components/2"
@@ -2126,7 +2126,7 @@
                   "$ref": "#/number/lightness/foreground/input/disabled/onDark/$value"
                 },
                 {
-                  "$ref": "#/number/saturation/disabled/$value"
+                  "$ref": "#/number/chroma/disabled/$value"
                 },
                 {
                   "$ref": "#/color/foreground/input/error/$root/$value/components/2"
@@ -2203,7 +2203,7 @@
                     "$ref": "#/number/lightness/foreground/input/disabled/onLayer2/onDark/$value"
                   },
                   {
-                    "$ref": "#/number/saturation/disabled/$value"
+                    "$ref": "#/number/chroma/disabled/$value"
                   },
                   {
                     "$ref": "#/color/foreground/input/error/layer2/$root/$value/components/2"
@@ -2281,7 +2281,7 @@
                     "$ref": "#/number/lightness/foreground/input/disabled/onLayer3/onDark/$value"
                   },
                   {
-                    "$ref": "#/number/saturation/disabled/$value"
+                    "$ref": "#/number/chroma/disabled/$value"
                   },
                   {
                     "$ref": "#/color/foreground/input/error/layer3/$root/$value/components/2"
@@ -2360,7 +2360,7 @@
                   "$ref": "#/number/lightness/foreground/input/disabled/onDark/$value"
                 },
                 {
-                  "$ref": "#/number/saturation/disabled/$value"
+                  "$ref": "#/number/chroma/disabled/$value"
                 },
                 {
                   "$ref": "#/color/foreground/input/success/$root/$value/components/2"
@@ -2437,7 +2437,7 @@
                     "$ref": "#/number/lightness/foreground/input/disabled/onLayer2/onDark/$value"
                   },
                   {
-                    "$ref": "#/number/saturation/disabled/$value"
+                    "$ref": "#/number/chroma/disabled/$value"
                   },
                   {
                     "$ref": "#/color/foreground/input/success/layer2/$root/$value/components/2"
@@ -2515,7 +2515,7 @@
                     "$ref": "#/number/lightness/foreground/input/disabled/onLayer3/onDark/$value"
                   },
                   {
-                    "$ref": "#/number/saturation/disabled/$value"
+                    "$ref": "#/number/chroma/disabled/$value"
                   },
                   {
                     "$ref": "#/color/palette/green/960/$value/components/2"
@@ -2672,7 +2672,7 @@
                   "$ref": "#/number/lightness/foreground/primary/disabled/onDark/$value"
                 },
                 {
-                  "$ref": "#/number/saturation/disabled/$value"
+                  "$ref": "#/number/chroma/disabled/$value"
                 },
                 {
                   "$ref": "#/color/foreground/primary/destructive/$root/$value/components/2"
@@ -2750,7 +2750,7 @@
                   "$ref": "#/number/lightness/foreground/primary/disabled/onDark/$value"
                 },
                 {
-                  "$ref": "#/number/saturation/disabled/$value"
+                  "$ref": "#/number/chroma/disabled/$value"
                 },
                 {
                   "$ref": "#/color/foreground/primary/constructive/$root/$value/components/2"
@@ -2828,7 +2828,7 @@
                   "$ref": "#/number/lightness/foreground/primary/disabled/onDark/$value"
                 },
                 {
-                  "$ref": "#/number/saturation/disabled/$value"
+                  "$ref": "#/number/chroma/disabled/$value"
                 },
                 {
                   "$ref": "#/color/foreground/primary/branded/$root/$value/components/2"
@@ -2984,7 +2984,7 @@
                   "$ref": "#/number/lightness/foreground/secondary/disabled/onDark/$value"
                 },
                 {
-                  "$ref": "#/number/saturation/disabled/$value"
+                  "$ref": "#/number/chroma/disabled/$value"
                 },
                 {
                   "$ref": "#/color/foreground/secondary/information/$root/$value/components/2"
@@ -3062,7 +3062,7 @@
                   "$ref": "#/number/lightness/foreground/secondary/disabled/onDark/$value"
                 },
                 {
-                  "$ref": "#/number/saturation/disabled/$value"
+                  "$ref": "#/number/chroma/disabled/$value"
                 },
                 {
                   "$ref": "#/color/foreground/secondary/warning/$root/$value/components/2"
@@ -3140,7 +3140,7 @@
                   "$ref": "#/number/lightness/foreground/secondary/disabled/onDark/$value"
                 },
                 {
-                  "$ref": "#/number/saturation/disabled/$value"
+                  "$ref": "#/number/chroma/disabled/$value"
                 },
                 {
                   "$ref": "#/color/foreground/secondary/error/$root/$value/components/2"
@@ -3218,7 +3218,7 @@
                   "$ref": "#/number/lightness/foreground/secondary/disabled/onDark/$value"
                 },
                 {
-                  "$ref": "#/number/saturation/disabled/$value"
+                  "$ref": "#/number/chroma/disabled/$value"
                 },
                 {
                   "$ref": "#/color/foreground/secondary/success/$root/$value/components/2"
@@ -3296,7 +3296,7 @@
                   "$ref": "#/number/lightness/foreground/secondary/disabled/onDark/$value"
                 },
                 {
-                  "$ref": "#/number/saturation/disabled/$value"
+                  "$ref": "#/number/chroma/disabled/$value"
                 },
                 {
                   "$ref": "#/color/foreground/secondary/branded/$root/$value/components/2"
@@ -3324,7 +3324,7 @@
                 }
               ]
             },
-            "$description": "Fill color for secondary elements where a custom hue is needed. Use for user-generated categories, tags, or chips where semantic color meaning isn't predefined. Override number.hue.category on the element to set the hue while maintaining accessibility through consistent lightness and saturation with color.foreground.secondary."
+            "$description": "Fill color for secondary elements where a custom hue is needed. Use for user-generated categories, tags, or chips where semantic color meaning isn't predefined. Override number.hue.category on the element to set the hue while maintaining accessibility through consistent lightness and chroma with color.foreground.secondary."
           },
           "hover": {
             "$value": {
@@ -3416,7 +3416,7 @@
                   "$ref": "#/number/lightness/foreground/primary/disabled/onDark/$value"
                 },
                 {
-                  "$ref": "#/number/saturation/disabled/$value"
+                  "$ref": "#/number/chroma/disabled/$value"
                 },
                 {
                   "$ref": "#/color/foreground/slider/progress/$root/$value/components/2"
@@ -3622,7 +3622,7 @@
                   "$ref": "#/number/lightness/foreground/primary/disabled/onDark/$value"
                 },
                 {
-                  "$ref": "#/number/saturation/disabled/$value"
+                  "$ref": "#/number/chroma/disabled/$value"
                 },
                 {
                   "$ref": "#/color/foreground/checkbox/selected/$root/$value/components/2"
@@ -4045,7 +4045,7 @@
                 "$ref": "#/number/lightness/text/disabled/onDark/$value"
               },
               {
-                "$ref": "#/number/saturation/disabled/$value"
+                "$ref": "#/number/chroma/disabled/$value"
               },
               {
                 "$ref": "#/color/text/information/$root/$value/components/2"
@@ -4085,7 +4085,7 @@
                 "$ref": "#/number/lightness/text/disabled/onDark/$value"
               },
               {
-                "$ref": "#/number/saturation/disabled/$value"
+                "$ref": "#/number/chroma/disabled/$value"
               },
               {
                 "$ref": "#/color/text/warning/$root/$value/components/2"
@@ -4125,7 +4125,7 @@
                 "$ref": "#/number/lightness/text/disabled/onDark/$value"
               },
               {
-                "$ref": "#/number/saturation/disabled/$value"
+                "$ref": "#/number/chroma/disabled/$value"
               },
               {
                 "$ref": "#/color/text/error/$root/$value/components/2"
@@ -4165,7 +4165,7 @@
                 "$ref": "#/number/lightness/text/disabled/onDark/$value"
               },
               {
-                "$ref": "#/number/saturation/disabled/$value"
+                "$ref": "#/number/chroma/disabled/$value"
               },
               {
                 "$ref": "#/color/text/success/$root/$value/components/2"
@@ -4205,7 +4205,7 @@
                 "$ref": "#/number/lightness/text/disabled/onDark/$value"
               },
               {
-                "$ref": "#/number/saturation/disabled/$value"
+                "$ref": "#/number/chroma/disabled/$value"
               },
               {
                 "$ref": "#/color/text/destructive/$root/$value/components/2"
@@ -4245,7 +4245,7 @@
                 "$ref": "#/number/lightness/text/disabled/onDark/$value"
               },
               {
-                "$ref": "#/number/saturation/disabled/$value"
+                "$ref": "#/number/chroma/disabled/$value"
               },
               {
                 "$ref": "#/color/text/constructive/$root/$value/components/2"
@@ -4285,7 +4285,7 @@
                 "$ref": "#/number/lightness/text/disabled/onDark/$value"
               },
               {
-                "$ref": "#/number/saturation/disabled/$value"
+                "$ref": "#/number/chroma/disabled/$value"
               },
               {
                 "$ref": "#/color/text/branded/$root/$value/components/2"
@@ -4365,7 +4365,7 @@
                 "$ref": "#/number/lightness/text/link/disabled/onDark/$value"
               },
               {
-                "$ref": "#/number/saturation/disabled/$value"
+                "$ref": "#/number/chroma/disabled/$value"
               },
               {
                 "$ref": "#/color/text/link/$root/$value/components/2"
@@ -4404,7 +4404,7 @@
                   "$ref": "#/number/lightness/text/link/disabled/onDark/$value"
                 },
                 {
-                  "$ref": "#/number/saturation/disabled/$value"
+                  "$ref": "#/number/chroma/disabled/$value"
                 },
                 {
                   "$ref": "#/color/text/link/visited/$root/$value/components/2"
@@ -4524,7 +4524,7 @@
                   "$ref": "#/number/lightness/text/onForegroundSecondary/disabled/onDark/$value"
                 },
                 {
-                  "$ref": "#/number/saturation/disabled/$value"
+                  "$ref": "#/number/chroma/disabled/$value"
                 },
                 {
                   "$ref": "#/color/text/onForegroundSecondary/information/$root/$value/components/2"
@@ -4564,7 +4564,7 @@
                   "$ref": "#/number/lightness/text/onForegroundSecondary/disabled/onDark/$value"
                 },
                 {
-                  "$ref": "#/number/saturation/disabled/$value"
+                  "$ref": "#/number/chroma/disabled/$value"
                 },
                 {
                   "$ref": "#/color/text/onForegroundSecondary/warning/$root/$value/components/2"
@@ -4604,7 +4604,7 @@
                   "$ref": "#/number/lightness/text/onForegroundSecondary/disabled/onDark/$value"
                 },
                 {
-                  "$ref": "#/number/saturation/disabled/$value"
+                  "$ref": "#/number/chroma/disabled/$value"
                 },
                 {
                   "$ref": "#/color/text/onForegroundSecondary/error/$root/$value/components/2"
@@ -4644,7 +4644,7 @@
                   "$ref": "#/number/lightness/text/onForegroundSecondary/disabled/onDark/$value"
                 },
                 {
-                  "$ref": "#/number/saturation/disabled/$value"
+                  "$ref": "#/number/chroma/disabled/$value"
                 },
                 {
                   "$ref": "#/color/text/onForegroundSecondary/success/$root/$value/components/2"
@@ -4672,7 +4672,7 @@
                 }
               ]
             },
-            "$description": "Text color for text placed on color.foreground.secondary.category elements. Use for user-generated categories, tags, or chips where a custom hue is needed. Override number.hue.category on the element to set the hue while maintaining accessibility through consistent lightness and saturation."
+            "$description": "Text color for text placed on color.foreground.secondary.category elements. Use for user-generated categories, tags, or chips where a custom hue is needed. Override number.hue.category on the element to set the hue while maintaining accessibility through consistent lightness and chroma."
           },
           "disabled": {
             "$value": {

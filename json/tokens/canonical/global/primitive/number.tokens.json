@@ -75,13 +75,13 @@
     "hue": {
       "category": {
         "$value": 0,
-        "$description": "Hue value for category color tokens (color.foreground.secondary.category, color.border.category, color.text.onForegroundSecondary.category). Override this on the element to set a custom hue while maintaining accessibility (lightness and saturation remain consistent with their non-category counterparts). Use for user-generated categories, tags, or chips where semantic color meaning isn't predefined. Default 0 produces a neutral gray."
+        "$description": "Hue value for category color tokens (color.foreground.secondary.category, color.border.category, color.text.onForegroundSecondary.category). Override this on the element to set a custom hue while maintaining accessibility (lightness and chroma remain consistent with their non-category counterparts). Use for user-generated categories, tags, or chips where semantic color meaning isn't predefined. Default 0 produces a neutral gray."
       }
     },
-    "saturation": {
+    "chroma": {
       "disabled": {
         "$value": 0.1,
-        "$description": "Saturation value for disabled state colors"
+        "$description": "Chroma value for disabled state colors"
       }
     },
     "opacity": {
