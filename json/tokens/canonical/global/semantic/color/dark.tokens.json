@@ -3881,6 +3881,16 @@
           "$description": "Constructive icon color to use when the element is in a disabled state"
         }
       },
+      "branded": {
+        "$root": {
+          "$value": "{color.text.branded.$root}",
+          "$description": "Icon color for branded elements that need to reflect the brand identity"
+        },
+        "disabled": {
+          "$value": "{color.text.branded.disabled}",
+          "$description": "Branded icon color to use when the element is in a disabled state"
+        }
+      },
       "muted": {
         "$root": {
           "$value": "{color.text.muted.$root}",
