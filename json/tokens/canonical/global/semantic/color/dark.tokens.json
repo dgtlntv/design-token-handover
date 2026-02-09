@@ -290,6 +290,86 @@
           "$description": "Border color to use when the element using the success border is in a disabled state"
         }
       },
+      "constructive": {
+        "$root": {
+          "$value": {
+            "colorSpace": {
+              "$ref": "#/color/palette/green/520/$value/colorSpace"
+            },
+            "components": [
+              {
+                "$ref": "#/color/palette/green/520/$value/components/0"
+              },
+              {
+                "$ref": "#/color/palette/green/520/$value/components/1"
+              },
+              {
+                "$ref": "#/color/palette/green/520/$value/components/2"
+              }
+            ]
+          },
+          "$description": "Border color for elements indicating constructive or additive actions"
+        },
+        "disabled": {
+          "$value": {
+            "colorSpace": {
+              "$ref": "#/color/border/constructive/$root/$value/colorSpace"
+            },
+            "components": [
+              {
+                "$ref": "#/number/lightness/border/disabled/onDark/$value"
+              },
+              {
+                "$ref": "#/number/chroma/disabled/$value"
+              },
+              {
+                "$ref": "#/color/border/constructive/$root/$value/components/2"
+              }
+            ]
+          },
+          "$description": "Border color to use when the element using the constructive border is in a disabled state"
+        }
+      },
+      "destructive": {
+        "$root": {
+          "$value": {
+            "colorSpace": {
+              "$ref": "#/color/palette/red/520/$value/colorSpace"
+            },
+            "components": [
+              {
+                "$ref": "#/color/palette/red/520/$value/components/0"
+              },
+              {
+                "$ref": "#/color/palette/red/520/$value/components/1"
+              },
+              {
+                "$ref": "#/color/palette/red/520/$value/components/2"
+              }
+            ]
+          },
+          "$description": "Border color for elements indicating destructive or irreversible actions"
+        },
+        "disabled": {
+          "$value": {
+            "colorSpace": {
+              "$ref": "#/color/border/destructive/$root/$value/colorSpace"
+            },
+            "components": [
+              {
+                "$ref": "#/number/lightness/border/disabled/onDark/$value"
+              },
+              {
+                "$ref": "#/number/chroma/disabled/$value"
+              },
+              {
+                "$ref": "#/color/border/destructive/$root/$value/components/2"
+              }
+            ]
+          },
+          "$description": "Border color to use when the element using the destructive border is in a disabled state"
+        }
+      },
       "branded": {
         "$root": {
           "$value": {
