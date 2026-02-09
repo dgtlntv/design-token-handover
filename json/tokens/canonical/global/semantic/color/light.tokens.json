@@ -791,7 +791,22 @@
         },
         "destructive": {
           "$root": {
-            "$value": "{color.foreground.ghost.$root}",
+            "$value": {
+              "colorSpace": {
+                "$ref": "#/color/foreground/ghost/$root/$value/colorSpace"
+              },
+              "components": [
+                {
+                  "$ref": "#/color/foreground/ghost/$root/$value/components/0"
+                },
+                {
+                  "$ref": "#/color/foreground/ghost/$root/$value/components/1"
+                },
+                {
+                  "$ref": "#/color/foreground/ghost/$root/$value/components/2"
+                }
+              ]
+            },
             "$description": "Fill color for destructive ghost-style interactive elements that match the background in their default state"
           },
           "hover": {
@@ -842,10 +857,10 @@
                   "$ref": "#/number/lightness/foreground/ghost/disabled/onLight/$value"
                 },
                 {
-                  "$ref": "#/number/chroma/disabled/$value"
+                  "$ref": "#/color/foreground/ghost/destructive/$root/$value/components/1"
                 },
                 {
-                  "$ref": "#/color/palette/red/100/$value/components/2"
+                  "$ref": "#/color/foreground/ghost/destructive/$root/$value/components/2"
                 }
               ]
             },
@@ -931,7 +946,22 @@
           },
           "layer3": {
             "$root": {
-              "$value": "{color.foreground.ghost.layer3.$root}",
+              "$value": {
+                "colorSpace": {
+                  "$ref": "#/color/foreground/ghost/layer3/$root/$value/colorSpace"
+                },
+                "components": [
+                  {
+                    "$ref": "#/color/foreground/ghost/layer3/$root/$value/components/0"
+                  },
+                  {
+                    "$ref": "#/color/foreground/ghost/layer3/$root/$value/components/1"
+                  },
+                  {
+                    "$ref": "#/color/foreground/ghost/layer3/$root/$value/components/2"
+                  }
+                ]
+              },
               "$description": "Fill color for destructive ghost-style interactive elements placed on layer 3 backgrounds"
             },
             "hover": {
@@ -982,10 +1012,10 @@
                     "$ref": "#/number/lightness/foreground/ghost/disabled/onLayer3/onLight/$value"
                   },
                   {
-                    "$ref": "#/number/chroma/disabled/$value"
+                    "$ref": "#/color/foreground/ghost/destructive/layer3/$root/$value/components/1"
                   },
                   {
-                    "$ref": "#/color/palette/red/100/$value/components/2"
+                    "$ref": "#/color/foreground/ghost/destructive/layer3/$root/$value/components/2"
                   }
                 ]
               },
@@ -995,7 +1025,22 @@
         },
         "constructive": {
           "$root": {
-            "$value": "{color.foreground.ghost.$root}",
+            "$value": {
+              "colorSpace": {
+                "$ref": "#/color/foreground/ghost/$root/$value/colorSpace"
+              },
+              "components": [
+                {
+                  "$ref": "#/color/foreground/ghost/$root/$value/components/0"
+                },
+                {
+                  "$ref": "#/color/foreground/ghost/$root/$value/components/1"
+                },
+                {
+                  "$ref": "#/color/foreground/ghost/$root/$value/components/2"
+                }
+              ]
+            },
             "$description": "Fill color for constructive ghost-style interactive elements that match the background in their default state"
           },
           "hover": {
@@ -1046,10 +1091,10 @@
                   "$ref": "#/number/lightness/foreground/ghost/disabled/onLight/$value"
                 },
                 {
-                  "$ref": "#/number/chroma/disabled/$value"
+                  "$ref": "#/color/foreground/ghost/constructive/$root/$value/components/1"
                 },
                 {
-                  "$ref": "#/color/palette/green/100/$value/components/2"
+                  "$ref": "#/color/foreground/ghost/constructive/$root/$value/components/2"
                 }
               ]
             },
@@ -1135,7 +1180,22 @@
           },
           "layer3": {
             "$root": {
-              "$value": "{color.foreground.ghost.layer3.$root}",
+              "$value": {
+                "colorSpace": {
+                  "$ref": "#/color/foreground/ghost/layer3/$root/$value/colorSpace"
+                },
+                "components": [
+                  {
+                    "$ref": "#/color/foreground/ghost/layer3/$root/$value/components/0"
+                  },
+                  {
+                    "$ref": "#/color/foreground/ghost/layer3/$root/$value/components/1"
+                  },
+                  {
+                    "$ref": "#/color/foreground/ghost/layer3/$root/$value/components/2"
+                  }
+                ]
+              },
               "$description": "Fill color for constructive ghost-style interactive elements placed on layer 3 backgrounds"
             },
             "hover": {
@@ -1186,10 +1246,10 @@
                     "$ref": "#/number/lightness/foreground/ghost/disabled/onLayer3/onLight/$value"
                   },
                   {
-                    "$ref": "#/number/chroma/disabled/$value"
+                    "$ref": "#/color/foreground/ghost/constructive/layer3/$root/$value/components/1"
                   },
                   {
-                    "$ref": "#/color/palette/green/100/$value/components/2"
+                    "$ref": "#/color/foreground/ghost/constructive/layer3/$root/$value/components/2"
                   }
                 ]
               },
@@ -1199,7 +1259,22 @@
         },
         "branded": {
           "$root": {
-            "$value": "{color.foreground.ghost.$root}",
+            "$value": {
+              "colorSpace": {
+                "$ref": "#/color/foreground/ghost/$root/$value/colorSpace"
+              },
+              "components": [
+                {
+                  "$ref": "#/color/foreground/ghost/$root/$value/components/0"
+                },
+                {
+                  "$ref": "#/color/foreground/ghost/$root/$value/components/1"
+                },
+                {
+                  "$ref": "#/color/foreground/ghost/$root/$value/components/2"
+                }
+              ]
+            },
             "$description": "Fill color for branded ghost-style interactive elements that match the background in their default state"
           },
           "hover": {
@@ -1250,10 +1325,10 @@
                   "$ref": "#/number/lightness/foreground/ghost/disabled/onLight/$value"
                 },
                 {
-                  "$ref": "#/number/chroma/disabled/$value"
+                  "$ref": "#/color/foreground/ghost/branded/$root/$value/components/1"
                 },
                 {
-                  "$ref": "#/color/palette/orange/100/$value/components/2"
+                  "$ref": "#/color/foreground/ghost/branded/$root/$value/components/2"
                 }
               ]
             },
@@ -1339,7 +1414,22 @@
           },
           "layer3": {
             "$root": {
-              "$value": "{color.foreground.ghost.layer3.$root}",
+              "$value": {
+                "colorSpace": {
+                  "$ref": "#/color/foreground/ghost/layer3/$root/$value/colorSpace"
+                },
+                "components": [
+                  {
+                    "$ref": "#/color/foreground/ghost/layer3/$root/$value/components/0"
+                  },
+                  {
+                    "$ref": "#/color/foreground/ghost/layer3/$root/$value/components/1"
+                  },
+                  {
+                    "$ref": "#/color/foreground/ghost/layer3/$root/$value/components/2"
+                  }
+                ]
+              },
               "$description": "Fill color for branded ghost-style interactive elements placed on layer 3 backgrounds"
             },
             "hover": {
@@ -1390,10 +1480,10 @@
                     "$ref": "#/number/lightness/foreground/ghost/disabled/onLayer3/onLight/$value"
                   },
                   {
-                    "$ref": "#/number/chroma/disabled/$value"
+                    "$ref": "#/color/foreground/ghost/branded/layer3/$root/$value/components/1"
                   },
                   {
-                    "$ref": "#/color/palette/orange/100/$value/components/2"
+                    "$ref": "#/color/foreground/ghost/branded/layer3/$root/$value/components/2"
                   }
                 ]
               },
