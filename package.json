@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "@terrazzo/cli": "^2.0.0-beta.4",
+    "@terrazzo/parser": "^2.0.0-beta.4",
+    "@terrazzo/plugin-css": "^2.0.0-beta.4",
+    "terrazzo-plugin-figma-json": "^0.1.1"
+  }
+}
