@@ -1,0 +1,27 @@
+{
+  "$schema": "https://designtokens.org/schemas/2025.10/resolver.json",
+  "version": "2025.10",
+  "sets": {
+    "primitive": {
+      "description": "Base primitive tokens",
+      "sources": [
+        { "$ref": "global/primitive/color.tokens.json" },
+        { "$ref": "global/primitive/number.tokens.json" }
+      ]
+    }
+  },
+  "modifiers": {
+    "theme": {
+      "description": "Theme modifier for light and dark mode color tokens",
+      "default": "light",
+      "contexts": {
+        "light": [{ "$ref": "global/semantic/color/light.tokens.json" }],
+        "dark": [{ "$ref": "global/semantic/color/dark.tokens.json" }]
+      }
+    }
+  },
+  "resolutionOrder": [
+    { "$ref": "#/sets/primitive" },
+    { "$ref": "#/modifiers/theme" }
+  ]
+}

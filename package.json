@@ -1,0 +1,30 @@
+{
+  "scripts": {
+    "build": "tz build"
+  },
+  "dependencies": {
+    "@terrazzo/cli": "^2.0.0-beta.4",
+    "@terrazzo/parser": "^2.0.0-beta.4",
+    "@terrazzo/plugin-css": "^2.0.0-beta.4",
+    "terrazzo-plugin-figma-json": "^0.1.1"
+  },
+  "designTokensLanguageServer": {
+    "prefix": "canonical",
+    "tokensFiles": [
+      "json/tokens/canonical/global/primitive/color.tokens.json",
+      "json/tokens/canonical/global/primitive/dimension.tokens.json",
+      "json/tokens/canonical/global/primitive/number.tokens.json",
+      "json/tokens/canonical/global/primitive/typography.tokens.json",
+      "json/tokens/canonical/global/semantic/color/light.tokens.json",
+      "json/tokens/canonical/global/semantic/color/dark.tokens.json",
+      "json/tokens/canonical/global/semantic/dimension/small.tokens.json",
+      "json/tokens/canonical/global/semantic/dimension/medium.tokens.json",
+      "json/tokens/canonical/global/semantic/dimension/large.tokens.json",
+      "json/tokens/canonical/global/semantic/dimension/xLarge.tokens.json",
+      "json/tokens/canonical/global/semantic/typography.tokens.json",
+      "json/tokens/canonical/apps/semantic/typography.tokens.json",
+      "json/tokens/canonical/docs/semantic/typography.tokens.json",
+      "json/tokens/canonical/sites/semantic/typography.tokens.json"
+    ]
+  }
+}
